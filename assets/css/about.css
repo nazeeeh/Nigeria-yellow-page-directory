@@ -1,0 +1,111 @@
+/* THE FONT-FAMILY */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+/* HOW TO USE THE FONT-FA ILY */
+
+
+/*font-family: 'Roboto Condensed',
+sans-serif;
+font-family: 'Ubuntu',
+sans-serif; */
+
+
+/* RESET */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR STYLING */
+
+header {
+    background: rgba(0, 0, 0, 0.96);
+    font-family: 'Ubuntu', sans-serif;
+    height: 75px;
+}
+
+#navbar .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 96%;
+}
+
+
+/* NAVBAR LOGO STYLING*/
+
+.navbar-content .content-1 img {
+    position: relative;
+    top: 15px;
+}
+
+
+/* CONTENT-2 STYLING */
+
+.navbar-content .content-2 ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 25px;
+}
+
+.navbar-content .content-2 li {
+    list-style-type: none;
+}
+
+.navbar-content .content-2 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 17px;
+    font-size: 15px;
+}
+
+.navbar-content .content-2 a:hover {
+    color: #EBBA32;
+}
+
+.navbar-content .content-2 .active {
+    color: #EBBA32;
+}
+
+
+/* CONTENT-3 STYLING */
+
+.navbar-content .content-3 ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 25px;
+}
+
+.navbar-content .content-3 li {
+    list-style-type: none;
+}
+
+.navbar-content .content-3 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 17px;
+}
+
+.navbar-content .content-3 a:hover {
+    color: #EBBA32;
+}
+
+.navbar-content .content-3 .active {
+    background: #EBBA32;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navbar-content .content-3 .active:hover {
+    color: #ffffff;
+}
