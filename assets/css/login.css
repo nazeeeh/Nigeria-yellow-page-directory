@@ -212,3 +212,33 @@ header {
 .login-form button[type=submit]:hover {
     background-color: #ece914;
 }
+
+@media(max-width: 768px) {
+    section .login-container {
+        overflow: hidden;
+        height: 300px;
+    }
+    .login-image img {
+        display: none;
+    }
+    .login-details {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .login-details button {
+        margin-left: 50px;
+    }
+    .login-form a {
+        margin-left: 80px;
+    }
+    .login-form input[type=email],
+    [type=password] {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 468px) {
+    .login-form a {
+        margin-left: 40px;
+    }
+}
