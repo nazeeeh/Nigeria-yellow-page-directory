@@ -31,6 +31,10 @@ header {
     top: 15px;
 }
 
+.navbar-content .content-1 .logo {
+    width: 250px;
+}
+
 
 /* CONTENT-2 STYLING */
 
@@ -214,6 +218,9 @@ header {
 }
 
 @media(max-width: 768px) {
+    .navbar-content .content-1 .logo {
+        width: 210px;
+    }
     section .login-container {
         overflow: hidden;
         height: 300px;
