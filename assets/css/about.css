@@ -96,11 +96,19 @@ header {
   font-size: 15px;
 }
 
+.navbar-content .content-2 .nav-item-2 a:hover {
+  color: #EBBA32;
+}
+
 .navbar-content .content-2 .nav-item-2 .active {
   background: #EBBA32;
   color: #ffffff;
   padding: 15px;
   border-radius: 5px;
+}
+
+.navbar-content .content-2 .nav-item-2 .active:hover {
+  color: #ffffff;
 }
 
 #navbar .closeMenu {
@@ -173,9 +181,12 @@ footer {
 }
 
 .footer-container .subscribe button {
-  padding: 5px;
+  padding: 6px;
   background: #EBBA32;
   color: #000000;
+  Border: none;
+  Outline: none;
+  border-radius: 2px;
 }
 
 .footer-container .footer-flex {
