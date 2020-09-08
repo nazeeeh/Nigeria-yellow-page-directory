@@ -9,23 +9,23 @@ html *,
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-​
+
 :root {
     --google-color: #E85300;
     --slack-color: #5D0174;
 }
-​
+
 ul {
     list-style: none !important;
 }
-​
+
 a {
     text-decoration: none !important;
 }
-​
-​
+
+
 /* header styling */
-​
+
 header {
     position: sticky;
     top: 0px;
@@ -33,61 +33,76 @@ header {
     width: 100%;
     z-index: 1000;
 }
-​
+
+
+/* nav bar styling */
+
 .container {
     display: flex;
-    max-width: 65rem;
+    max-width: 100%;
     padding: 0 2rem;
-    height: 3rem;
-    margin: 0 auto;
+    height: 79px;
+    justify-content: space-around;
 }
-​
+
 .logo-container {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: left;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
 }
-​
+
 .nav-btn {
-    /* display: flex; */
     display: flex;
     flex: 3;
+    padding-top: 0.8rem;
 }
-​
+
 .nav-links {
     flex: 2;
 }
-​
+
+.nav-link {
+    font-size: 15px;
+}
+
 .log-sign {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex: 1;
-    background-color: #313236;
+    padding-bottom: 1.2rem;
+    color: #FFFFFF;
 }
-​
+
+
+/* call to action button */
+
 .btn {
     display: inline-block;
-    padding: .5rem 1.3rem;
-    font-size: .8rem;
+    padding-top: 0.8rem;
+    font-size: 15px;
     border-radius: 5px;
-    line-height: 1;
-    margin: 0 .2rem;
+    line-height: 20px;
+    color: #FFFFFF;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
-    text-transform: uppercase;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
-​
+
 .btn.solid,
 .btn.transparent:hover {
     background: #EBBA32;
     border-radius: 5px;
     color: #fff;
 }
-​
+
 .btn.transparent,
 .btn.solid:hover {
     background-color: transparent;
@@ -95,13 +110,16 @@ header {
     background: #EBBA32;
     border-radius: 5px;
 }
-​
+
+
+/* nav links stylings */
+
 .nav-links>ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-​
+
 .nav-link>a {
     line-height: 3rem;
     color: #fff;
@@ -117,7 +135,7 @@ header {
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-​
+
 .nav-link:hover>a {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -125,16 +143,19 @@ header {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     color: #EBBA32;
-    border-bottom: #EBBA32 5px solid;
+    border-bottom: #EBBA32 3px solid;
 }
-​
+
+
+/* hamburger styling */
+
 .hamburger-menu-container {
     display: none;
     flex: 1;
     background-color: black;
     justify-content: flex-end;
 }
-​
+
 .hamburger-menu {
     width: 2.5rem;
     height: 2.5rem;
@@ -143,7 +164,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-​
+
 .hamburger-menu div {
     width: 1.6rem;
     height: 3px;
@@ -161,7 +182,7 @@ header {
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-​
+
 .hamburger-menu div:before,
 .hamburger-menu div:after {
     content: '';
@@ -175,7 +196,7 @@ header {
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
-​
+
 .hamburger-menu div:before {
     transform: translateY(-7px);
     -webkit-transform: translateY(-7px);
@@ -183,7 +204,7 @@ header {
     -ms-transform: translateY(-7px);
     -o-transform: translateY(-7px);
 }
-​
+
 .hamburger-menu div:after {
     transform: translateY(7px);
     -webkit-transform: translateY(7px);
@@ -191,7 +212,7 @@ header {
     -ms-transform: translateY(7px);
     -o-transform: translateY(7px);
 }
-​
+
 #check {
     display: none;
     position: absolute;
@@ -208,11 +229,11 @@ header {
     cursor: pointer;
     opacity: 0;
 }
-​
+
 #check:checked~.hamburger-menu-container .hamburger-menu div {
     background-color: transparent;
 }
-​
+
 #check:checked~.hamburger-menu-container .hamburger-menu div:before {
     transform: translateY(0) rotate(-45deg);
     -webkit-transform: translateY(0) rotate(-45deg);
@@ -220,7 +241,7 @@ header {
     -ms-transform: translateY(0) rotate(-45deg);
     -o-transform: translateY(0) rotate(-45deg);
 }
-​
+
 #check:checked~.hamburger-menu-container .hamburger-menu div:after {
     transform: translateY(0) rotate(45deg);
     -webkit-transform: translateY(0) rotate(45deg);
@@ -228,7 +249,7 @@ header {
     -ms-transform: translateY(0) rotate(45deg);
     -o-transform: translateY(0) rotate(45deg);
 }
-​
+
 @keyframes animation {
     from {
         opacity: 0;
@@ -247,39 +268,39 @@ header {
         -o-transform: translateY(0px);
     }
 }
-​
-​
+
+
 /* Sign Up Form Styling */
-​
+
 .signup-form,
 .signup-image {
     width: 50%;
 }
-​
+
 .signup-form {
     width: 50%;
     padding-left: 4.5em;
     object-fit: cover;
 }
-​
+
 .signup-form .form-input {
     padding-top: 1.5em;
 }
-​
+
 .signup-container {
     display: flex;
     padding-top: 1.5em;
 }
-​
+
 .signup-btn-container {
     display: flex;
     padding-top: 1.5em;
 }
-​
+
 .signup-btn-container div {
     padding-right: 1.2em;
 }
-​
+
 h3 {
     font-style: normal;
     font-weight: bold;
@@ -287,7 +308,7 @@ h3 {
     line-height: 42px;
     color: #313236;
 }
-​
+
 .google-btn {
     width: 226px;
     height: 58px;
@@ -299,7 +320,7 @@ h3 {
     line-height: 20px;
     color: #FFFFFF;
 }
-​
+
 .slack-btn {
     width: 226px;
     height: 58px;
@@ -311,18 +332,18 @@ h3 {
     line-height: 20px;
     color: #FFFFFF;
 }
-​
+
 input {
     width: 467px;
     height: 64px;
     background: #FFFFFF;
     border-radius: 10px;
 }
-​
+
 input:focus {
     border: #EBBA32 3px solid;
 }
-​
+
 input[placeholder] {
     font-style: normal;
     font-weight: normal;
@@ -331,7 +352,7 @@ input[placeholder] {
     color: rgba(0, 0, 0, 0.45);
     padding-left: 10px;
 }
-​
+
 .create-account-btn {
     width: 226px;
     height: 58px;
@@ -343,16 +364,16 @@ input[placeholder] {
     line-height: 20px;
     color: #FFFFFF;
 }
-​
+
 .btn-div {
     margin-top: 1.2em;
 }
-​
+
 img {
     border-radius: 33px;
     object-fit: cover;
 }
-​
+
 p {
     font-style: normal;
     font-weight: 300;
@@ -362,7 +383,7 @@ p {
     margin-bottom: 1.2em;
     margin-top: 1.2em;
 }
-​
+
 p a {
     font-family: Muli;
     font-style: normal;
@@ -371,11 +392,11 @@ p a {
     line-height: 23px;
     color: #5A656F;
 }
-​
+
 small {
     margin-top: 1.5em;
 }
-​
+
 small a {
     font-family: Muli;
     font-style: normal;
@@ -384,10 +405,10 @@ small a {
     line-height: 23px;
     color: #5A656F;
 }
-​
-​
+
+
 /* media screen for tablets */
-​
+
 @media screen and (max-width:1028px) {
     .signup-form {
         /* background-image: url(../img/signup-girl.jpg);
@@ -398,10 +419,10 @@ small a {
         display: none;
     }
 }
-​
-​
+
+
 /* media screen for smart phones */
-​
+
 @media (max-width:920px) {
     .hamburger-menu-container {
         display: flex;
@@ -495,74 +516,74 @@ small a {
         width: 100vw;
     }
 }
-​
-​
+
+
 /* FOOTER STYLING */
-​
+
 footer {
     background: #000000;
 }
-​
+
 .footer-container {
     margin: auto;
     max-width: 80%;
 }
-​
+
 .footer-container .subscribe {
     text-align: center;
     padding: 10px;
 }
-​
+
 .footer-container .subscribe h1 {
     font-family: 'Ubuntu', sans-serif;
     color: #EBBA32;
     font-size: 15px;
     padding: 10px;
 }
-​
+
 .footer-container .subscribe input {
     padding: 5px;
 }
-​
+
 .footer-container .subscribe button {
     padding: 5px;
     background: #EBBA32;
     color: #000000;
 }
-​
+
 .footer-container .footer-flex {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 12px;
 }
-​
+
 .footer-container .footer-flex hr {
     color: #EBBA32;
 }
-​
+
 .footer-container .footer-flex .social-icon i {
     color: #EBBA32;
     padding: 10px;
 }
-​
+
 .footer-container .footer-flex .social-icon i:hover {
     font-size: 18px;
 }
-​
+
 .footer-container .footer-flex .elite {
     padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
     color: #EBBA32;
 }
-​
-​
+
+
 /* RESPONSIVENESS */
-​
-​
+
+
 /* Tablet */
-​
+
 @media (max-width:1024px) {
     /* HAMBURGER MENU */
     #navbar .content-2 {
@@ -607,4 +628,133 @@ footer {
         left: 0;
     }
     /* ABOUT PAGE */
-    .about-us .about-gri...
+    .about-us .about-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        max-width: 90%;
+    }
+    .about-us .about-grid .about-images img {
+        margin-top: 130px;
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+
+/* MINI TABLET */
+
+@media (max-width:768px) {
+    /* HAMBURGER MENU */
+    #navbar .content-2 {
+        height: 300px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: #000000;
+        color: #EBBA32;
+        transition: top 1s ease;
+        padding: 25px 200px;
+        margin-top: 70px;
+        display: none;
+    }
+    /* ABOUT PAGE */
+    .about-us .about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        max-width: 90%;
+    }
+    .about-us .about-grid .about-images {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .about-us .about-grid .about-images img {
+        margin-top: 0;
+        margin-bottom: 15px;
+        max-width: 580px;
+        max-height: 580px;
+    }
+}
+
+
+/* BIGGER MOBILE */
+
+@media (max-width:420px) {
+    /* HAMBURGER MENU */
+    #navbar .content-2 {
+        height: 300px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background: #000000;
+        color: #EBBA32;
+        transition: top 1s ease;
+        padding: 0 15px;
+        margin-top: 70px;
+        display: none;
+    }
+    /* ABOUT PAGE */
+    .about-us .about-grid .about-images img {
+        margin-top: 0;
+        margin-bottom: 15px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .footer-container .footer-flex .elite {
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 10px;
+        color: #EBBA32;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width:320px) {
+    /* HAMBURGER MENU */
+    #navbar .content-2 {
+        height: 250px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        background: #000000;
+        color: #EBBA32;
+        transition: top 1s ease;
+        margin-top: 70px;
+        display: none;
+    }
+    #navbar .content-2 .closeMenu {
+        display: block;
+        top: 5px;
+        right: 15px;
+    }
+    /* NAVBAR LOGO */
+    .navbar-content .content-1 img {
+        position: relative;
+        top: 20px;
+        max-width: 180px;
+        max-height: 180px;
+    }
+    /* ABOUT PAGE */
+    .about-us .about-grid .about-images img {
+        margin-top: 0;
+        margin-bottom: 15px;
+        max-width: 230px;
+        max-height: 230px;
+    }
+}
