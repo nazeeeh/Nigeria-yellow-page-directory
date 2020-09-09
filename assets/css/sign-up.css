@@ -341,7 +341,7 @@ input {
 }
 
 input:focus {
-    border: #EBBA32 3px solid;
+    border: #EBBA32 5px solid;
 }
 
 input[placeholder] {
@@ -409,21 +409,31 @@ small a {
 
 /* media screen for tablets */
 
-@media screen and (max-width:1028px) {
-    .signup-form {
-        /* background-image: url(../img/signup-girl.jpg);
-        background-repeat: no-repeat;
-        background-size: fit; */
-    }
+@media screen and (max-width:1118px) {
     .signup-image {
-        display: none;
+        width: 50%;
+    }
+    .signup-image img {
+        width: 90%;
+        padding-left: 3rem;
+        object-fit: cover;
     }
 }
 
+@media screen and (max-width:1028px) {
+    .signup-image {
+        display: none;
+    }
+    .signup-form {
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        padding-right: 6rem;
+        align-items: center;
+    }
+}
 
-/* media screen for smart phones */
-
-@media (max-width:920px) {
+@media (max-width:1015px) {
     .hamburger-menu-container {
         display: flex;
     }
@@ -514,6 +524,51 @@ small a {
     }
     .signup-image {
         width: 100vw;
+    }
+}
+
+@media (max-width:920px) {
+    .signup-form {
+        margin-left: 9rem;
+    }
+}
+
+@media (max-width:853px) {
+    .signup-form {
+        margin-left: 7rem;
+    }
+}
+
+@media (max-width:710px) {
+    .signup-form {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width:660px) {
+    .signup-form {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width:595px) {
+    .signup-form {
+        margin-left: 0.7rem;
+    }
+}
+
+@media (max-width:570px) {
+    .signup-container {
+        width: 90%;
+    }
+    .signup-btn-container {
+        width: auto;
+    }
+    .signup-form {
+        width: 90%;
+    }
+    input {
+        min-width: 80%;
     }
 }
 
