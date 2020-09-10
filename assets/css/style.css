@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+
+
+/* RESET */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR STYLING */
+header {
+    background: rgba(0, 0, 0, 0.96);
+    font-family: 'Ubuntu';
+    height: 75px;
+    width: 100%;
+}
+
+#navbar .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 96%;
+}
+
+/* NAVBAR LOGO STYLING*/
+.navbar-content .content-1 img {
+    position: relative;
+    top: 15px;
+    height: 40px;
+}
+
+#navbar .openMenu {
+    font-size: 2rem;
+    color: #ffe4c4;
+    margin: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/* CONTENT-2 STYLING */
+.navbar-content .content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 120px;
+}
+
+.navbar-content .content-2 .nav-item-1 ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 25px;
+}
+
+.navbar-content .content-2 .nav-item-1 li {
+    list-style-type: none;
+}
+
+.navbar-content .content-2 .nav-item-1 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.navbar-content .content-2 .nav-item-1 a:hover {
+    color: #EBBA32;
+}
+
+.navbar-content .content-2 .nav-item-1 .active {
+    color: #EBBA32;
+}
+
+.navbar-content .content-2 .nav-item-2 ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 25px;
+}
+
+.navbar-content .content-2 .nav-item-2 li {
+    list-style-type: none;
+}
+
+.navbar-content .content-2 .nav-item-2 a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.navbar-content .content-2 .nav-item-2 a:hover {
+    color: #EBBA32;
+}
+
+.navbar-content .content-2 .nav-item-2 .active {
+    background: #EBBA32;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navbar-content .content-2 .nav-item-2 .active:hover {
+    color: #ffffff;
+}
+
+.navbar-content .content-2 .nav-item-2 .add-btn {
+    background: #EBBA32;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .navbar-content .content-2 .nav-item-2 .add-btn:hover {
+    background: #aa7d02;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+#navbar .closeMenu {
+    font-size: 2rem;
+    color: #ffe4c4;
+    cursor: pointer;
+    display: none;
+}
+
+/* Pricing Table */
+
+.title{
+    display: grid;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.title h3{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.title p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1400px, 80%);
+    margin: 2rem 8rem;
+
+
+}
+
+.pricing-card {
+    flex: 1;
+    max-width: 360px;
+    background-color: #EBBA32;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2e2e2e;
+    transition: .3s linear;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.pricing-card-header {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    display: inline-block;
+    color: #EBBA32;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header {
+    box-shadow: 0 0 0 26em black;
+}
+
+.price {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 20px 0;
+    transition: .2s linear;
+}
+
+.price sup,
+.price span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing-card:hover,
+.pricing-card:hover .price {
+    color: #EBBA32;
+}
+
+.pricing-card li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.order-btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.order-btn:hover {
+    background-color: black;
+    color: #ffe4c4;
+}
+
+/* FOOTER STYLING */
+footer {
+    background: #000000;
+}
+
+.footer-container {
+    margin: auto;
+    max-width: 80%;
+}
+
+.footer-container .subscribe {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-container .subscribe h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #EBBA32;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.footer-container .subscribe input {
+    padding: 5px;
+}
+
+.footer-container .subscribe button {
+    padding: 6px;
+    background: #EBBA32;
+    color: #000000;
+    Border: none;
+    Outline: none;
+    border-radius: 2px;
+}
+
+.footer-container .footer-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+}
+
+.footer-container .footer-flex hr {
+    color: #EBBA32;
+}
+
+.footer-container .footer-flex .social-icon i {
+    color: #EBBA32;
+    padding: 10px;
+}
+
+.footer-container .footer-flex .social-icon i:hover {
+    font-size: 18px;
+}
+
+.footer-container .footer-flex .elite {
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    color: #EBBA32;
+}
+
+
+@media screen and (max-width:110px) {
+    .pricing-card {
+        flex: 50%;
+
+    }
+}

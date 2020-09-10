@@ -14,7 +14,7 @@
         
         header {
             background: rgba(0, 0, 0, 0.96);
-            font-family: 'Ubuntu', sans-serif;
+            font-family: 'Ubuntu';
             height: 75px;
             width: 100%;
         }
@@ -41,6 +41,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 120px;
+            font-weight: bold;
         }
         
         .navbar-content .content-2 .nav-item-1 ul {
@@ -63,14 +64,35 @@
         
         .navbar-content .content-2 .nav-item-1 a:hover {
             color: #EBBA32;
+            border-bottom: 1px solid #EBBA32;
         }
         
         .navbar-content .content-2 .nav-item-2 a:hover {
             color: #EBBA32;
+            border-bottom: 1px solid #EBBA32;
         }
         
         .navbar-content .content-2 .nav-item-1 .active {
             color: #EBBA32;
+        }
+        
+        .navbar-content .content-2 .nav-item-2 .active {
+            color: #EBBA32;
+        }
+        
+        .navbar-content .content-2 .nav-item-2 .add-btn {
+            background: #EBBA32;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .navbar-content .content-2 .nav-item-2 .add-btn:hover {
+            background: #aa7d02;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            border-bottom: none;
         }
         
         .navbar-content .content-2 .nav-item-2 ul {
@@ -89,13 +111,6 @@
             color: #ffffff;
             padding: 20px;
             font-size: 15px;
-        }
-        
-        .navbar-content .content-2 .nav-item-2 .active {
-            background: #EBBA32;
-            color: #ffffff;
-            padding: 15px;
-            border-radius: 5px;
         }
         
         #navbar .closeMenu {
@@ -122,9 +137,10 @@
         .login-image img {
             width: 500px;
             height: 550px;
+            margin-right: 130px;
             border-radius: 32px;
-            filter: grayscale(0.7);
-            -webkit-filter: grayscale(0.7);
+            filter: grayscale(0.9);
+            -webkit-filter: grayscale(0.9);
         }
         
         .login-details .login-image {
@@ -133,6 +149,7 @@
         
         .login-details {
             margin-top: 80px;
+            margin-left: 130px;
         }
         
         .dark-color {
@@ -170,7 +187,7 @@
             background-color: #8b8c91;
         }
         
-        .twitter-btn {
+        .google-btn {
             background-color: #FEFEFE;
             color: #000;
         }
@@ -212,12 +229,16 @@
             border-radius: 10px;
             background-color: #EBBA32;
             color: #fff;
-            margin-top: 25px;
+            margin-top: 30px;
             margin-bottom: 15px;
         }
         
         .login-form button[type=submit]:hover {
             background-color: #ece914;
+        }
+        
+        .signup {
+            margin-top: 20px;
         }
         
         @media(max-width: 468px) {

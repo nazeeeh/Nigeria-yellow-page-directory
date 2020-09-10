@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\Portfolio"
+		},
+		{
+			"path": "..\\Practice"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\SignUp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Practice"
+	}
+}
