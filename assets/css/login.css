@@ -14,7 +14,7 @@
         
         header {
             background: rgba(0, 0, 0, 0.96);
-            font-family: 'Ubuntu';
+            font-family: 'Ubuntu'sans-serif;
             height: 75px;
             width: 100%;
         }
