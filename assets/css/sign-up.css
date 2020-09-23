@@ -32,6 +32,7 @@ header {
     background: rgba(0, 0, 0, 0.96);
     width: 100%;
     z-index: 1000;
+    font-size: 15px !important;
 }
 
 
@@ -82,7 +83,7 @@ header {
     display: inline-block;
     padding-top: 0.8rem;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 3px !important;
     line-height: 20px;
     color: #FFFFFF;
     transition: .3s;
@@ -90,10 +91,10 @@ header {
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
 }
 
 .btn.solid,
@@ -108,7 +109,11 @@ header {
     background-color: transparent;
     color: #fff;
     background: #EBBA32;
-    border-radius: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 
 
@@ -310,27 +315,31 @@ h3 {
 }
 
 .google-btn {
-    width: 226px;
+    width: 220px;
     height: 58px;
     border-radius: 15px;
     background: var(--google-color);
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
 }
 
 .slack-btn {
-    width: 226px;
+    width: 220px;
     height: 58px;
     border-radius: 15px;
     background: var(--slack-color);
     font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 input {
@@ -347,7 +356,7 @@ input:focus {
 input[placeholder] {
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.45);
     padding-left: 10px;
@@ -360,7 +369,7 @@ input[placeholder] {
     border-radius: 15px;
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
 }
@@ -377,7 +386,7 @@ img {
 p {
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23px;
     color: #5A656F;
     margin-bottom: 1.2em;
@@ -596,7 +605,7 @@ footer {
 .footer-container .subscribe h1 {
     font-family: 'Ubuntu', sans-serif;
     color: #EBBA32;
-    font-size: 15px;
+    font-size: 13px;
     padding: 10px;
 }
 
@@ -627,7 +636,7 @@ footer {
 }
 
 .footer-container .footer-flex .social-icon i:hover {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer-container .footer-flex .elite {
