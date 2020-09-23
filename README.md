@@ -96,3 +96,13 @@ More Guidelines:
   Samuel: Landing page.
 	Thanks, and let's get working, everyone has to finish their pages latest 9PM today.
 
+
+FONTS USED FOR THE DIFFERENT UI DESIGN SCREENS
+
+About Page:
+		Heading: EB Garamond
+		description text: Rubik
+		How it all started text: Zilla Slab
+		Everything else: Rubik
+
+
