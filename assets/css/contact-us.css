@@ -35,6 +35,7 @@ sans-serif; */
         .navbar-content .content-1 img {
             position: relative;
             top: 15px;
+            height: 40px;
         }
         
         #navbar .openMenu {
@@ -110,6 +111,16 @@ sans-serif; */
         .navbar-content .content-2 .nav-item-2 .active:hover {
             color: #ffffff;
         }
+<<<<<<< HEAD
+=======
+
+        .navbar-content .content-2 .nav-item-2 .add-btn {
+            background: #EBBA32;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+          }
+>>>>>>> 9777bad5ffdd243efb36d30c995365ab655b577b
         
         #navbar .closeMenu {
             font-size: 2rem;
@@ -139,6 +150,10 @@ sans-serif; */
         .contact-container {
             display: block;
             padding-bottom: 12px;
+<<<<<<< HEAD
+=======
+            font-family: 'Ubuntu', sans-serif;
+>>>>>>> 9777bad5ffdd243efb36d30c995365ab655b577b
         }
         
         label {

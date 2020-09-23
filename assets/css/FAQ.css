@@ -1,0 +1,8 @@
+.container-fluid h2 {
+    text-align: left;
+    color: red;
+}
+
+.container-fluid~a {
+    text-decoration: none;
+}
