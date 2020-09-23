@@ -83,7 +83,11 @@ header {
     display: inline-block;
     padding-top: 0.8rem;
     font-size: 15px;
+<<<<<<< HEAD
+    border-radius: 5px;
+=======
     border-radius: 3px !important;
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
     line-height: 20px;
     color: #FFFFFF;
     transition: .3s;
@@ -91,10 +95,17 @@ header {
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
+<<<<<<< HEAD
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+=======
     -webkit-border-radius: 3px !important;
     -moz-border-radius: 3px !important;
     -ms-border-radius: 3px !important;
     -o-border-radius: 3px !important;
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
 }
 
 .btn.solid,
@@ -109,11 +120,15 @@ header {
     background-color: transparent;
     color: #fff;
     background: #EBBA32;
+<<<<<<< HEAD
+    border-radius: 5px;
+=======
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
 }
 
 
@@ -148,7 +163,11 @@ header {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1); */
     color: #EBBA32;
+<<<<<<< HEAD
+    border-bottom: #EBBA32 3px solid;
+=======
     /* border-bottom: #EBBA32 3px solid; */
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
 }
 
 
@@ -566,22 +585,35 @@ small a {
     }
 }
 
+<<<<<<< HEAD
+@media (max-width:570px) {
+=======
 @media (max-width:574px) {
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
     .signup-container {
         width: 90%;
     }
     .signup-btn-container {
+<<<<<<< HEAD
+        width: auto;
+=======
         width: 100%;
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
     }
     .signup-form {
         width: 90%;
     }
+<<<<<<< HEAD
+    input {
+        min-width: 80%;
+=======
     .google-btn,
     .slack-btn {
         width: 100px;
     }
     input {
         width: 400px;
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
     }
 }
 

@@ -111,6 +111,8 @@ sans-serif; */
         .navbar-content .content-2 .nav-item-2 .active:hover {
             color: #ffffff;
         }
+<<<<<<< HEAD
+=======
 
         .navbar-content .content-2 .nav-item-2 .add-btn {
             background: #EBBA32;
@@ -118,6 +120,7 @@ sans-serif; */
             padding: 15px;
             border-radius: 5px;
           }
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
         
         #navbar .closeMenu {
             font-size: 2rem;
@@ -147,7 +150,10 @@ sans-serif; */
         .contact-container {
             display: block;
             padding-bottom: 12px;
+<<<<<<< HEAD
+=======
             font-family: 'Ubuntu', sans-serif;
+>>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
         }
         
         label {
