@@ -137,13 +137,13 @@ header {
 }
 
 .nav-link:hover>a {
-    transform: scale(1.1);
+    /* transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    -o-transform: scale(1.1); */
     color: #EBBA32;
-    border-bottom: #EBBA32 3px solid;
+    /* border-bottom: #EBBA32 3px solid; */
 }
 
 
