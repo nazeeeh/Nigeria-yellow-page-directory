@@ -111,8 +111,6 @@ sans-serif; */
         .navbar-content .content-2 .nav-item-2 .active:hover {
             color: #ffffff;
         }
-<<<<<<< HEAD
-=======
 
         .navbar-content .content-2 .nav-item-2 .add-btn {
             background: #EBBA32;
@@ -120,11 +118,6 @@ sans-serif; */
             padding: 15px;
             border-radius: 5px;
           }
-<<<<<<< HEAD
->>>>>>> 9777bad5ffdd243efb36d30c995365ab655b577b
-=======
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
->>>>>>> 1ae13314afe52302d28e492dc3f63a749a89b696
         
         #navbar .closeMenu {
             font-size: 2rem;
@@ -154,14 +147,7 @@ sans-serif; */
         .contact-container {
             display: block;
             padding-bottom: 12px;
-<<<<<<< HEAD
-=======
             font-family: 'Ubuntu', sans-serif;
-<<<<<<< HEAD
->>>>>>> 9777bad5ffdd243efb36d30c995365ab655b577b
-=======
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
->>>>>>> 1ae13314afe52302d28e492dc3f63a749a89b696
         }
         
         label {
