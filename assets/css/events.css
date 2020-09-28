@@ -49,9 +49,10 @@ nav .nav-item-1 ul {
 
 nav .nav-item-1 li {
   list-style-type: none;
+  text-decoration: none;
 }
 
-nav .nav-item-1 a {
+nav .nav-item-1 li a {
   position: relative;
   top: 10px;
   color: #ffffff;
@@ -59,11 +60,10 @@ nav .nav-item-1 a {
   font-size: 18px;
   margin: 15px auto;
   text-decoration: none;
-}
+} 
 
-nav .nav-item-1 a:hover {
+nav .nav-item-1 li a:hover {
   color: #EBBA32;
-  border-bottom: 1px solid #EBBA32;
 }
 
 nav .nav-item-1 .active{
