@@ -50,6 +50,7 @@ nav .nav-item-1 ul {
 }
 
 nav .nav-item-1 li {
+<<<<<<< HEAD
     list-style-type: none;
 }
 
@@ -66,6 +67,24 @@ nav .nav-item-1 a {
 nav .nav-item-1 a:hover {
     color: #EBBA32;
     border-bottom: 1px solid #EBBA32;
+=======
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav .nav-item-1 li a {
+  position: relative;
+  top: 10px;
+  color: #ffffff;
+  padding: 35px;
+  font-size: 18px;
+  margin: 15px auto;
+  text-decoration: none;
+} 
+
+nav .nav-item-1 li a:hover {
+  color: #EBBA32;
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
 }
 
 nav .nav-item-1 .active {

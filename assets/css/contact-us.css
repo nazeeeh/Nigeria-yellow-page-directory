@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+<<<<<<< HEAD
 
 /* font-family: 'Beth Ellen', cursive;
 font-family: 'Ubuntu', sans-serif; */
@@ -107,6 +108,114 @@ nav .nav-item-2 .add-btn:hover {
   color: #ffffff;
 } 
 
+=======
+
+/* font-family: 'Beth Ellen', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height:100vh;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: auto;
+  overflow-x: hidden;
+}
+
+button::-moz-focus-inner, 
+input[type="button"]::-moz-focus-inner, 
+input[type="submit"]::-moz-focus-inner, 
+input[type="reset"]::-moz-focus-inner {
+  padding: 0;
+  border: 0 none;
+}
+
+/* Navbar Styling */
+nav {
+  background: #111111;
+  position: sticky;
+  background: rgba(0, 0, 0, 0.96);
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+}
+
+nav .navbar-brand img {
+  max-width: 280px;
+  max-height: 280px;
+  top: 15px;
+  margin-right: 300px;
+}
+
+nav .nav-item-1 ul {
+  display: flex;
+  justify-content: space-between;
+  top: 25px;
+}
+
+nav .nav-item-1 li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav .nav-item-1 li a {
+  position: relative;
+  top: 10px;
+  color: #ffffff;
+  padding: 35px;
+  font-size: 18px;
+  margin: 15px auto;
+  text-decoration: none;
+} 
+
+nav .nav-item-1 li a:hover {
+  color: #EBBA32;
+}
+
+nav .nav-item-1 .active{
+  color: #EBBA32;
+}
+
+nav .nav-item-2 ul{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+nav .nav-item-2 li {
+  list-style-type: none;
+}
+
+nav .nav-item-2 a {
+  position: relative;
+  top: 10px;
+  padding: 35px;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav .nav-item-2 a:hover {
+  color: #EBBA32;
+}
+
+nav .nav-item-2 .add-btn {
+  position: relative;
+  top: 10px;
+  background: #EBBA32;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+nav .nav-item-2 .add-btn:hover {
+  color: #ffffff;
+} 
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
         /* contact Us */
         
         .contact-us {
@@ -188,8 +297,12 @@ nav .nav-item-2 .add-btn:hover {
         }
 
         
+<<<<<<< HEAD
  
 /* FOOTER STYLING */
+=======
+/* FOOTER */
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
 footer {
   background: #111111;
   color: #ffffff;
@@ -203,14 +316,22 @@ footer {
 }
 
 .footer-container img {
+<<<<<<< HEAD
   max-width: 280px;
   max-height: 280px;
+=======
+  max-width: 400px;
+  max-height: 400px;
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
   margin: 20px;
 }
 
 .footer-container h3 {
   color: #EBBA32;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
   text-align: center;
 }
 
@@ -235,6 +356,7 @@ footer {
 }
 
 .newsletter {
+<<<<<<< HEAD
   text-align: center;
   max-width: 95%;
 }
@@ -247,13 +369,28 @@ footer {
 }
 .form-inline{
   display: flex;
+=======
+  margin: auto;
+  text-align: center;
+  max-width: 70%;
+}
+
+.newsletter input {
+  max-width: 100%;
+  margin: 5px 5px;
+  padding: 5px;
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
 }
 
 .newsletter button {
   background: #EBBA32;
   color: #000000;
+<<<<<<< HEAD
   border-radius: 0 5px 5px 0;
 
+=======
+  margin: auto;
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
 }
 
 .follow-us span {
@@ -264,7 +401,10 @@ footer {
 .follow-us span i {
   padding: 10px;
   font-size: 24px;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
 }
 
 .follow-us span i:hover {
