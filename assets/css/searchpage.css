@@ -96,12 +96,12 @@ nav .nav-item-2 .add-btn:hover {
     width: 600px;
 }
 
-.container {
+.main-container {
     /* height: 1175px;
     width: 366px; */
     position: relative;
     /* left: 10000px; */
-    right: 0px;
+    right: -3px;
     width: 366px;
     height: 775px;
     /* left: -  9px; */
@@ -134,7 +134,7 @@ nav .nav-item-2 .add-btn:hover {
     text-align: center;
     letter-spacing: 0em;
     padding-bottom: 25px;
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     font-size: 26px;
     font-style: normal;
     font-weight: bolder;
@@ -183,6 +183,11 @@ div a:hover {
     text-decoration: none;
     transition: 2ms all ease-in-out;
 }
+
+
+/* .sub-container .input a (odd) {
+    background: red;
+} */
 
 .registration-form {
     position: relative;
@@ -288,16 +293,89 @@ form input {
 }
 
 
-/*  */
+/* footer */
+
+footer {
+    background: #111111;
+    color: #ffffff;
+}
+
+.footer-container {
+    margin: auto;
+    max-width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-container img {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+}
+
+.footer-container h3 {
+    color: #EBBA32;
+    text-align: center;
+}
+
+.footer-container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+}
+
+.row .quick li {
+    list-style-type: none;
+}
+
+.row .quick a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.row .quick a:hover {
+    color: #EBBA32;
+}
+
+.newsletter {
+    margin: auto;
+    text-align: center;
+    max-width: 70%;
+}
+
+.newsletter input {
+    max-width: 100%;
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+.newsletter button {
+    background: #EBBA32;
+    color: #000000;
+    margin: auto;
+}
+
+.follow-us span {
+    padding: 13px;
+    border-bottom: 1px dotted #333;
+}
+
+.follow-us span i {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.follow-us span i:hover {
+    color: #EBBA32;
+}
+
+.follow-us p {
+    padding: 15px;
+}
 
 
 /* Responsiveness*/
-
-
-/* Larger Desktop Size*/
-
-
-/* FOOTER STYLING */
 
 
 /* Larger Desktop Size*/
