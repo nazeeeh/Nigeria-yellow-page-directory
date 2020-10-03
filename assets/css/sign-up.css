@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+        @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 html,
 body,
 html *,
@@ -83,11 +83,7 @@ header {
     display: inline-block;
     padding-top: 0.8rem;
     font-size: 15px;
-<<<<<<< HEAD
-    border-radius: 5px;
-=======
     border-radius: 3px !important;
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
     line-height: 20px;
     color: #FFFFFF;
     transition: .3s;
@@ -95,17 +91,10 @@ header {
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
-<<<<<<< HEAD
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-=======
     -webkit-border-radius: 3px !important;
     -moz-border-radius: 3px !important;
     -ms-border-radius: 3px !important;
     -o-border-radius: 3px !important;
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
 }
 
 .btn.solid,
@@ -120,15 +109,11 @@ header {
     background-color: transparent;
     color: #fff;
     background: #EBBA32;
-<<<<<<< HEAD
-    border-radius: 5px;
-=======
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
 }
 
 
@@ -163,11 +148,7 @@ header {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1); */
     color: #EBBA32;
-<<<<<<< HEAD
-    border-bottom: #EBBA32 3px solid;
-=======
     /* border-bottom: #EBBA32 3px solid; */
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
 }
 
 
@@ -585,276 +566,242 @@ small a {
     }
 }
 
-<<<<<<< HEAD
-@media (max-width:570px) {
-=======
-@media (max-width:574px) {
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
-    .signup-container {
-        width: 90%;
-    }
-    .signup-btn-container {
-<<<<<<< HEAD
-        width: auto;
-=======
-        width: 100%;
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
-    }
-    .signup-form {
-        width: 90%;
-    }
-<<<<<<< HEAD
-    input {
-        min-width: 80%;
-=======
-    .google-btn,
-    .slack-btn {
-        width: 100px;
-    }
-    input {
-        width: 400px;
->>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
-    }
-}
-
-
-/* FOOTER STYLING */
-
-footer {
-    background: #000000;
-}
-
-.footer-container {
-    margin: auto;
-    max-width: 80%;
-}
-
-.footer-container .subscribe {
-    text-align: center;
-    padding: 10px;
-}
-
-.footer-container .subscribe h1 {
-    font-family: 'Ubuntu', sans-serif;
-    color: #EBBA32;
-    font-size: 13px;
-    padding: 10px;
-}
-
-.footer-container .subscribe input {
-    padding: 5px;
-}
-
-.footer-container .subscribe button {
-    padding: 5px;
-    background: #EBBA32;
-    color: #000000;
-}
-
-.footer-container .footer-flex {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 12px;
-}
-
-.footer-container .footer-flex hr {
-    color: #EBBA32;
-}
-
-.footer-container .footer-flex .social-icon i {
-    color: #EBBA32;
-    padding: 10px;
-}
-
-.footer-container .footer-flex .social-icon i:hover {
-    font-size: 16px;
-}
-
-.footer-container .footer-flex .elite {
-    padding-top: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-    color: #EBBA32;
-}
-
-
-/* RESPONSIVENESS */
-
-
-/* Tablet */
-
-@media (max-width:1024px) {
-    /* HAMBURGER MENU */
-    #navbar .content-2 {
-        height: 300px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        background: #000000;
-        color: #EBBA32;
-        transition: top 1s ease;
-        padding: 25px 300px;
-        margin-top: 70px;
-        display: none;
-    }
-    #navbar .content-2 .nav-item-1 ul {
-        display: flex;
-        flex-direction: column;
-    }
-    #navbar .content-2 .nav-item-2 ul {
-        display: flex;
-        flex-direction: column;
-    }
-    #navbar .content-2 li {
-        padding: 12px;
-    }
-    #navbar .content-2 .closeMenu {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 30px;
-    }
-    #navbar .content-2 .closeMenu i {
-        color: #EBBA32;
-    }
-    #navbar .openMenu {
-        display: block;
-        top: 20px;
-        left: 0;
-    }
-    /* ABOUT PAGE */
-    .about-us .about-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: auto;
-        max-width: 90%;
-    }
-    .about-us .about-grid .about-images img {
-        margin-top: 130px;
-        max-width: 500px;
-        max-height: 500px;
-    }
-}
-
-
-/* MINI TABLET */
-
-@media (max-width:768px) {
-    /* HAMBURGER MENU */
-    #navbar .content-2 {
-        height: 300px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        background: #000000;
-        color: #EBBA32;
-        transition: top 1s ease;
-        padding: 25px 200px;
-        margin-top: 70px;
-        display: none;
-    }
-    /* ABOUT PAGE */
-    .about-us .about-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: auto;
-        max-width: 90%;
-    }
-    .about-us .about-grid .about-images {
-        margin: 0 auto;
-        max-width: 80%;
-    }
-    .about-us .about-grid .about-images img {
-        margin-top: 0;
-        margin-bottom: 15px;
-        max-width: 580px;
-        max-height: 580px;
-    }
-}
-
-
-/* BIGGER MOBILE */
-
-@media (max-width:420px) {
-    /* HAMBURGER MENU */
-    #navbar .content-2 {
-        height: 300px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        background: #000000;
-        color: #EBBA32;
-        transition: top 1s ease;
-        padding: 0 15px;
-        margin-top: 70px;
-        display: none;
-    }
-    /* ABOUT PAGE */
-    .about-us .about-grid .about-images img {
-        margin-top: 0;
-        margin-bottom: 15px;
-        max-width: 300px;
-        max-height: 300px;
-    }
-    .footer-container .footer-flex .elite {
-        padding-top: 10px;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 10px;
-        color: #EBBA32;
-    }
-}
-
-
-/* MOBILE */
-
-@media (max-width:320px) {
-    /* HAMBURGER MENU */
-    #navbar .content-2 {
-        height: 250px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-        background: #000000;
-        color: #EBBA32;
-        transition: top 1s ease;
-        margin-top: 70px;
-        display: none;
-    }
-    #navbar .content-2 .closeMenu {
-        display: block;
-        top: 5px;
-        right: 15px;
-    }
-    /* NAVBAR LOGO */
-    .navbar-content .content-1 img {
-        position: relative;
-        top: 20px;
-        max-width: 180px;
-        max-height: 180px;
-    }
-    /* ABOUT PAGE */
-    .about-us .about-grid .about-images img {
-        margin-top: 0;
-        margin-bottom: 15px;
-        max-width: 230px;
-        max-height: 230px;
-    }
-}
+<<<<<<< HEAD @media (max-width:570px) {
+    =======@media (max-width: 574px) {
+        >>>>>>> 3faff9e9e894fbd851f12bf1dc2a47212fa12fd7 .signup-container {
+            width: 90%;
+        }
+        .signup-btn-container {
+            <<<<<<< HEAD width: auto;
+            =======width: 100%;
+            >>>>>>>3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
+        }
+        .signup-form {
+            width: 90%;
+        }
+        <<<<<<< HEAD input {
+            min-width: 80%;
+            =======.google-btn,
+            .slack-btn {
+                width: 100px;
+            }
+            input {
+                width: 400px;
+                >>>>>>>3faff9e9e894fbd851f12bf1dc2a47212fa12fd7
+            }
+        }
+        /* FOOTER STYLING */
+        footer {
+            background: #000000;
+        }
+        .footer-container {
+            margin: auto;
+            max-width: 80%;
+        }
+        .footer-container .subscribe {
+            text-align: center;
+            padding: 10px;
+        }
+        .footer-container .subscribe h1 {
+            font-family: 'Ubuntu', sans-serif;
+            color: #EBBA32;
+            font-size: 13px;
+            padding: 10px;
+        }
+        .footer-container .subscribe input {
+            padding: 5px;
+        }
+        .footer-container .subscribe button {
+            padding: 5px;
+            background: #EBBA32;
+            color: #000000;
+        }
+        .footer-container .footer-flex {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 12px;
+        }
+        .footer-container .footer-flex hr {
+            color: #EBBA32;
+        }
+        .footer-container .footer-flex .social-icon i {
+            color: #EBBA32;
+            padding: 10px;
+        }
+        .footer-container .footer-flex .social-icon i:hover {
+            font-size: 16px;
+        }
+        .footer-container .footer-flex .elite {
+            padding-top: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 13px;
+            color: #EBBA32;
+        }
+        /* RESPONSIVENESS */
+        /* Tablet */
+        @media (max-width:1024px) {
+            /* HAMBURGER MENU */
+            #navbar .content-2 {
+                height: 300px;
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 10;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                background: #000000;
+                color: #EBBA32;
+                transition: top 1s ease;
+                padding: 25px 300px;
+                margin-top: 70px;
+                display: none;
+            }
+            #navbar .content-2 .nav-item-1 ul {
+                display: flex;
+                flex-direction: column;
+            }
+            #navbar .content-2 .nav-item-2 ul {
+                display: flex;
+                flex-direction: column;
+            }
+            #navbar .content-2 li {
+                padding: 12px;
+            }
+            #navbar .content-2 .closeMenu {
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 30px;
+            }
+            #navbar .content-2 .closeMenu i {
+                color: #EBBA32;
+            }
+            #navbar .openMenu {
+                display: block;
+                top: 20px;
+                left: 0;
+            }
+            /* ABOUT PAGE */
+            .about-us .about-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin: auto;
+                max-width: 90%;
+            }
+            .about-us .about-grid .about-images img {
+                margin-top: 130px;
+                max-width: 500px;
+                max-height: 500px;
+            }
+        }
+        /* MINI TABLET */
+        @media (max-width:768px) {
+            /* HAMBURGER MENU */
+            #navbar .content-2 {
+                height: 300px;
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 10;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                background: #000000;
+                color: #EBBA32;
+                transition: top 1s ease;
+                padding: 25px 200px;
+                margin-top: 70px;
+                display: none;
+            }
+            /* ABOUT PAGE */
+            .about-us .about-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                margin: auto;
+                max-width: 90%;
+            }
+            .about-us .about-grid .about-images {
+                margin: 0 auto;
+                max-width: 80%;
+            }
+            .about-us .about-grid .about-images img {
+                margin-top: 0;
+                margin-bottom: 15px;
+                max-width: 580px;
+                max-height: 580px;
+            }
+        }
+        /* BIGGER MOBILE */
+        @media (max-width:420px) {
+            /* HAMBURGER MENU */
+            #navbar .content-2 {
+                height: 300px;
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 10;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                background: #000000;
+                color: #EBBA32;
+                transition: top 1s ease;
+                padding: 0 15px;
+                margin-top: 70px;
+                display: none;
+            }
+            /* ABOUT PAGE */
+            .about-us .about-grid .about-images img {
+                margin-top: 0;
+                margin-bottom: 15px;
+                max-width: 300px;
+                max-height: 300px;
+            }
+            .footer-container .footer-flex .elite {
+                padding-top: 10px;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 10px;
+                color: #EBBA32;
+            }
+        }
+        /* MOBILE */
+        @media (max-width:320px) {
+            /* HAMBURGER MENU */
+            #navbar .content-2 {
+                height: 250px;
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 10;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 10px;
+                background: #000000;
+                color: #EBBA32;
+                transition: top 1s ease;
+                margin-top: 70px;
+                display: none;
+            }
+            #navbar .content-2 .closeMenu {
+                display: block;
+                top: 5px;
+                right: 15px;
+            }
+            /* NAVBAR LOGO */
+            .navbar-content .content-1 img {
+                position: relative;
+                top: 20px;
+                max-width: 180px;
+                max-height: 180px;
+            }
+            /* ABOUT PAGE */
+            .about-us .about-grid .about-images img {
+                margin-top: 0;
+                margin-bottom: 15px;
+                max-width: 230px;
+                max-height: 230px;
+            }
+        }
