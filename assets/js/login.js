@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // const mainMenu = document.querySelector('.content-2');
 // const closeMenu = document.querySelector('.closeMenu');
 // const openMenu = document.querySelector('.openMenu');
@@ -6,6 +7,16 @@
 
 // openMenu.addEventListener('click', show);
 // closeMenu.addEventListener('click', close);
+=======
+const mainMenu = document.querySelector('.content-2');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+
+
+
+openMenu.addEventListener('click', show);
+closeMenu.addEventListener('click', close);
+>>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 
 function show() {
     mainMenu.style.display = 'flex';
@@ -17,6 +28,7 @@ function close() {
     mainMenu.style.top = '-100%';
     openMenu.style.display = 'initial';
 
+<<<<<<< HEAD
 }
 //  validating form from local storage
 let userInfo = JSON.parse(localStorage.getItem("userInfo"));
@@ -49,3 +61,6 @@ const signUser = (e) => {
     }
 }
 document.getElementById("login-button").addEventListener("click", signUser);
+=======
+}
+>>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7

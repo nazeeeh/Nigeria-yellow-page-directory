@@ -1,23 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+
+
+/* RESET */
 *,
- ::before,
- ::after {
+::before,
+::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-<<<<<<< HEAD
-/* .logo {
-    width: 250px;
-} */
-=======
-.logo {
-    width: 250px;
-}
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
-
 
 /* Navbar Styling */
 nav {
@@ -26,20 +17,11 @@ nav {
   background: rgba(0, 0, 0, 0.96);
   font-family: 'Ubuntu', sans-serif;
   width: 100%;
-<<<<<<< HEAD
-  padding: 40px 0;
-}
-
-nav .navbar-brand img {
-  max-width: 230px;
-  max-height: 230px;
-=======
 }
 
 nav .navbar-brand img {
   max-width: 280px;
   max-height: 280px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   top: 15px;
   margin-right: 300px;
 }
@@ -59,13 +41,8 @@ nav .nav-item-1 li a {
   position: relative;
   top: 10px;
   color: #ffffff;
-<<<<<<< HEAD
-  padding: 20px;
-  font-size: 15px;
-=======
   padding: 35px;
   font-size: 18px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   margin: 15px auto;
   text-decoration: none;
 } 
@@ -91,13 +68,8 @@ nav .nav-item-2 li {
 nav .nav-item-2 a {
   position: relative;
   top: 10px;
-<<<<<<< HEAD
-  padding: 8px;
-  font-size: 15px;
-=======
   padding: 35px;
   font-size: 18px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   color: #ffffff;
   text-decoration: none;
 }
@@ -110,11 +82,7 @@ nav .nav-item-2 .add-btn {
   position: relative;
   top: 10px;
   background: #EBBA32;
-<<<<<<< HEAD
-  padding: 10px 20px;
-=======
   padding: 15px 30px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   border-radius: 5px;
   color: #ffffff;
 }
@@ -123,146 +91,113 @@ nav .nav-item-2 .add-btn:hover {
   color: #ffffff;
 } 
 
-/* Login body*/
+/* Pricing Table */
 
-#login-container {
-    background: #FEFEFE;
-    border-radius: 33px;
-    padding: 10px;
-    font-family: 'Mulish', sans-serif;
-    overflow: hidden;
+.title{
+    display: grid;
+    justify-content: center;
+    margin: 2rem 0;
 }
-
-#login-container .login-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    font-family: 'Mulish', sans-serif;
-    justify-content: space-around;
-}
-
-.login-image img {
-    width: 500px;
-    height: 550px;
-    margin-right: 130px;
-    border-radius: 32px;
-    filter: grayscale(0.9);
-    -webkit-filter: grayscale(0.9);
-}
-
-.login-details .login-image {
-    display: flex;
-}
-
-.login-details {
-    margin-top: 80px;
-    margin-left: 130px;
-}
-
-.dark-color {
-    color: #313236;
-}
-
-.light-color {
-    color: #5A656F;
-}
-
-.login-details #heading {
+.title h3{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 40px;
     font-weight: bold;
-    font-size: 30px;
-    font-family: 'Rubik', sans-serif;
-    line-height: 42px;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
-.login-details button {
-    width: 170px;
-    height: 50px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+.title p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 }
 
-.twitter-btn {
-    background-color: white;
-    border: 4px double #313236;
-    color: #000;
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1400px, 80%);
+    margin: 2rem 8rem;
 }
 
-.twitter-btn:hover {
-    background-color: #313236;
-    border-top: 4px double white;
-    border-left: 4px double white;
-    color: white;
-    margin-right: 20px;
-}
-
-.google-btn {
-    background-color: #313236;
-    border-top: 4px double white;
-    border-left: 4px double white;
-    color: white;
-    margin-right: 20px;
-}
-
-.google-btn:hover {
-    background-color: white;
-    border: 4px double #313236;
-    color: #000;
-}
-
-.or {
-    font-size: 15px;
-    color: #ACBDD0;
-    text-align: center;
-}
-
-.login-form label {
-    color: #5A656F;
-}
-
-.login-form input[type=email],
-[type=password] {
-    outline: none;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    font-size: 20px;
-    color: #313236;
-    width: 100%;
-    border-bottom: 1px #313236 solid;
-    margin-bottom: 20px;
-}
-
-.login-form a {
-    margin-left: 200px;
-}
-
-.none {
-    text-decoration: none;
-}
-
-.login-form button[type=submit] {
-    border-radius: 10px;
+.pricing-card {
+    flex: 1;
+    max-width: 360px;
     background-color: #EBBA32;
-    color: #fff;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    border: 4px double #b6912a;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2e2e2e;
+    transition: .3s linear;
+    border: 1px solid black;
+    border-radius: 10px;
+
 }
 
-.login-form button[type=submit]:hover {
-    background-color: #dac71c;
+.pricing-card-header {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    display: inline-block;
+    color: #EBBA32;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
 }
 
-.signup {
-    margin-top: 20px;
+.pricing-card:hover .pricing-card-header {
+    box-shadow: 0 0 0 26em black;
+}
+
+.price {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 20px 0;
+    transition: .2s linear;
+}
+
+.price sup,
+.price span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing-card:hover,
+.pricing-card:hover .price {
+    color: #EBBA32;
+}
+
+.pricing-card li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.order-btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.order-btn:hover {
+    background-color: black;
+    color: #ffe4c4;
 }
 
 
-<<<<<<< HEAD
-/* FOOTER STYLING */
-=======
 /* FOOTER */
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 footer {
   background: #111111;
   color: #ffffff;
@@ -276,22 +211,13 @@ footer {
 }
 
 .footer-container img {
-<<<<<<< HEAD
-  max-width: 280px;
-  max-height: 280px;
-=======
   max-width: 400px;
   max-height: 400px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   margin: 20px;
 }
 
 .footer-container h3 {
   color: #EBBA32;
-<<<<<<< HEAD
-  font-size: 20px;
-=======
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   text-align: center;
 }
 
@@ -316,20 +242,6 @@ footer {
 }
 
 .newsletter {
-<<<<<<< HEAD
-  text-align: center;
-  max-width: 95%;
-}
-
-.newsletter input {
-  max-width: 70%;
-  margin: 5px 0px;
-  padding: 5px;
-  border-radius: 5px 0 0 5px;
-}
-.form-inline{
-  display: flex;
-=======
   margin: auto;
   text-align: center;
   max-width: 70%;
@@ -339,18 +251,12 @@ footer {
   max-width: 100%;
   margin: 5px 5px;
   padding: 5px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 .newsletter button {
   background: #EBBA32;
   color: #000000;
-<<<<<<< HEAD
-  border-radius: 0 5px 5px 0;
-
-=======
   margin: auto;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 .follow-us span {
@@ -361,10 +267,6 @@ footer {
 .follow-us span i {
   padding: 10px;
   font-size: 24px;
-<<<<<<< HEAD
-  
-=======
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 .follow-us span i:hover {
@@ -374,7 +276,6 @@ footer {
 .follow-us  p {
   padding: 15px;
 }
-
 
 
 /* Responsiveness*/
@@ -453,6 +354,12 @@ footer {
   color: #ffffff;
   }
 
+  /* Pricing Table Styling */
+  .pricing-table {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+
     /* FOOTER */
   .footer-container {
     margin: auto;
@@ -493,8 +400,10 @@ footer {
   }
 }
 
-@media(max-width: 768px) {
-     /* Navbar */
+
+/* Tablet Size */
+@media (max-width:768px) { 
+  /* Navbar */
   nav .navbar-toggler {
     background: #EBBA32;
     font-size: 17px;
@@ -517,25 +426,8 @@ footer {
  .nav-item-2 li {
     padding: 8px;
   }
-    .login-image img {
-        display: none;
-    }
-    .login-details {
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .login-details button {
-        margin-left: 50px;
-    }
-    .login-form a {
-        margin-left: 80px;
-    }
-    .login-form input[type=email],
-    [type=password] {
-        margin-bottom: 10px;
-    }
 
-     /* FOOTER */
+  /* FOOTER */
   .footer-container .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -543,21 +435,9 @@ footer {
   }
 }
 
-@media(max-width: 468px) {
-    .login-form a {
-        margin-left: 40px;
-    }
-}
 
 /* Mobile Size*/
 @media (max-width:425px) {
-  .main-content h3 {
-    font-family: 'Beth Ellen', cursive;
-    color: #FFFFFF;
-    font-size: 30px;
-    margin: 15px 0;
-  }
-
     /* FOOTER */
   .footer-container .row {
     display: grid;
@@ -618,3 +498,9 @@ footer {
   margin: auto;
 }
 } 
+
+@media screen and (max-width:110px) {
+    .pricing-card {
+        flex: 50%;
+    }
+}
