@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This is the about page of the Naija Yellow 
+  Catalogue that describes what we do and our terms and policy">
+    <link rel="icon" href="../assets/img/logo2.png">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+   integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/bc9f75cc29.js" crossorigin="anonymous"></script>
+
+<!-- Style CSS -->
+<link rel="stylesheet" href="../assets/css/forgot.css">
+<link rel="stylesheet" href="../assets/css/login.css">
+<title>Naija Yellow Catalogue | Forgot Password</title>
+</head>
+
+<body>
+    <!-- NAVBAR SECTION -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" alt="Naija Yellow Catalogue Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"></div>
+            <div class=" nav-flex collapse navbar-collapse" id="navbarNav">
+                <div class="nav-item-1 mr-auto">
+                    <ul>
+                        <li><a href="../index.html" >Home</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="../contents/pricing.html">Pricing</a></li>
+                        <li><a href="./contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item-2">
+                    <ul>
+                        <li><a href="./login.html"  class="active" >Sign-in</a></li>
+                        <li><a href="./sign-up.html">Register</a></li>
+                        <li><a href="./sign-up.html" class="add-btn">+ Add Listings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main body -->
+    <section class="forgot-section">
+        <div class="forgot-case">
+            
+            <div class="image_case">
+                <img src="../assets/img/forgotArt.png" alt="forgot image">
+            </div>
+            <div class="form_case">
+                <p class="first-text">Forgot Password</p> 
+                <p class="second-text">Seems like you forgot your password, we'll send a recovery<br>&nbsp; &nbsp;&nbsp;link to your email</p>
+                <div class="input-icon">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Email" required ></div>
+                    <!-- <a href="../contents/reset.html"> </a>-->
+                        <button class="send-link"  type="submit" onclick="validateEmail()">Send Recovery Link</button>
+                </div>     
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <img src="../assets/img/logo.png" alt="The Footer Image">
+            <div class="row">
+                <div class="footer-logo">
+                    <div class="about-us">
+                        <h3>About Us</h3>
+                        <p>The Naija Yellow Catalogue web application is an online directory where businesses are
+                            registered and organized by category. It also a platform where users can get information
+                            on
+                            businesses by searching based on name, category or location.</p>
+                    </div>
+                </div>
+                <div class="quick">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <a href="#">
+                            <li>Register</li>
+                        </a>
+                        <a href="#">
+                            <li>FAQs</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms & Conditions</li>
+                        </a>
+                        <a href="#">
+                            <li>Top Events</li>
+                        </a>
+                        <a href="#">
+                            <li>contact Us</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <h3>Subscribe to our newsletter</h3>
+                        <form class="form-inline">
+                        <input type="text" class="form-control" placeholder="Email address"> <br>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+                <div class="follow-us">
+                    <h3>Follow Us</h3>
+                    <span>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-medium"></i>
+                    </span>
+                    <p>Copyright &copy; 2020 Naija Yellow Catalogue.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/forgot.js"></script>
+    
+</body>
+</html>

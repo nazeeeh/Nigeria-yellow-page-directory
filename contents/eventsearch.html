@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/img/logo2.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/bc9f75cc29.js" crossorigin="anonymous"></script>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="../assets/css/eventsearch.css">
+
+  <title>Naija Yellow Catalogue | Search Result</title>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" alt="Naija Yellow Catalogue Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"></div>
+      <div class=" nav-flex collapse navbar-collapse" id="navbarNav">
+        <div class="nav-item-1 mr-auto">
+          <ul>
+            <li><a href="../index.html" class="active">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./contact-us.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-item-2">
+          <ul>
+            <li><a href="./contents/login.html">Sign-in</a></li>
+            <li><a href="./contents/sign-up.html">Register</a></li>
+            <li><a href="./sign-up.html" class="add-btn">+ Add Listings</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTION-1 -->
+    <section id="section-1">
+      <div class="container">
+        <div class="search-header">
+          <h2>Event Search Results</h2>
+        </div>
+        <div class="search-box">
+          <form>
+            <input type="text" name="event" placeholder="Musicals">
+            <input type="text" name="location" placeholder="Abuja">
+            <input type="text" name="date" placeholder="05/10/2020">
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-2 -->
+    <section id="section-2">
+      <div class="container">
+        <div class="events-grid">
+          <div class="events-result" id="eventResult">
+            <!-- <div class="result-grid">
+              <div class="result-img">
+                <img src="../assets/img/marlian.jpg" alt="First Event">
+              </div>
+              <div class="result-desc">
+                <p><i class="fas fa-check"></i> verified</p>
+                <h3>Accoustic Night</h3>
+                <div class="items">
+                  <span>Number of views: 23</span>
+                  <span><i class="fas fa-map-marker-alt"></i> Astalavista Lounge</span>
+                  <span><strong>Entry Fee:</strong> Free</span>
+                </div>
+              </div>
+            </div>
+            <div class="result-grid">
+              <div class="result-img">
+                <img src="../assets/img/tiwa.jpg" alt="First Event">
+              </div>
+              <div class="result-desc">
+                <p><i class="fas fa-check"></i> verified</p>
+                <h3>Tiwa & Friends Independence Day Blast</h3>
+                <div class="items">
+                  <span>Number of views: 70</span>
+                  <span><i class="fas fa-map-marker-alt"></i> Sheraton Hotels</span>
+                  <span><strong>Entry Fee:</strong> Free</span>
+                </div>
+              </div>
+            </div>
+            <div class="result-grid">
+              <div class="result-img">
+                <img src="../assets/img/marlian.jpg" alt="First Event">
+              </div>
+              <div class="result-desc">
+                <p><i class="fas fa-check"></i> verified</p>
+                <h3>Marlian Fest</h3>
+                <div class="items">
+                  <span>Number of views: 100</span>
+                  <span><i class="fas fa-map-marker-alt"></i> Jabi Park</span>
+                  <span><strong>Entry Fee:</strong> Free</span>
+                </div>
+              </div>
+            </div>
+            <div class="result-grid">
+              <div class="result-img">
+                <img src="../assets/img/burna.jpg" alt="First Event">
+              </div>
+              <div class="result-desc">
+                <p><i class="fas fa-check"></i> verified</p>
+                <h3>Bourna's Abuja Tour</h3>
+                <div class="items">
+                  <span>Number of views: 50</span>
+                  <span><i class="fas fa-map-marker-alt"></i> Bosco Club House</span>
+                  <span><strong>Entry Fee:</strong> Free</span>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="map">
+            <img src="../assets/img/map.png" alt="Map Image">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <img src="../assets/img/logo.png" alt="The Footer Image">
+      <div class="row">
+        <div class="footer-logo">
+          <div class="about-us">
+            <h3>About Us</h3>
+            <p>The Naija Yellow Catalogue web application is an online directory where businesses are
+              registered and organized by category. It also a platform where users can get information
+              on
+              businesses by searching based on name, category or location.</p>
+          </div>
+        </div>
+        <div class="quick">
+          <h3>Quick Links</h3>
+          <ul>
+            <a href="#">
+              <li>Register</li>
+            </a>
+            <a href="#">
+              <li>FAQs</li>
+            </a>
+            <a href="#">
+              <li>Terms & Conditions</li>
+            </a>
+            <a href="#">
+              <li>Top Events</li>
+            </a>
+            <a href="#">
+              <li>contact Us</li>
+            </a>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Subscribe to our newsletter</h3>
+          <form class="form-inline">
+            <input type="text" class="form-control" placeholder="Email address"> <br>
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </form>
+        </div>
+        <div class="follow-us">
+          <h3>Follow Us</h3>
+          <span>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-medium"></i>
+          </span>
+          <p>Copyright &copy; 2020 Naija Yellow Catalogue.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../assets/js/search.js"></script>
+  <script>
+    recoverSearch();
+  </script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
