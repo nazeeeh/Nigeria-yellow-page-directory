@@ -10,9 +10,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/93ebee4231.js" crossorigin="anonymous"></script>
     <!-- Style CSS -->
-    <link rel="stylesheet" href="../assets/css/searchpage.css">
+    <link rel="stylesheet" href="../assets/css/userspage.css">
 
-    <title>Search Page</title>
+    <title>User's Page</title>
 </head>
 
 <body>
@@ -82,19 +82,16 @@
             </div>
             <hr>
             <div class="input input-grey">
-                <i class="glyphicon glyphicon-log-out"></i><a href="#" onclick="">logout</a>
+                <i class="glyphicon glyphicon-log-out"></i>
+                <a href="#" onclick="logout()">logout</a>
             </div>
-
-
         </div>
 
 
         <div class="registration-form ">
 
             <div class="fine" style="width:300px; height: 150px;padding-top: 20px; background: grey">
-                <span> <h3>Upload profile or Logo <i class="fa fa-exclamation-circle"></i>
-                </h3>
-                </span>
+                <span> <h3>Upload profile or Logo <i class="fa fa-exclamation-circle"></i>  </h3> </span>
                 <div style="display: flex;  height: 100px; justify-content: center; align-items: center;">
                     <input type="file" name="filename" accept="image/gif, image/jpeg, image/png">
                 </div>
@@ -142,12 +139,14 @@
     </div>
 
 
-    </div>
+
 
     <!-- FOOTER -->
+
+
     <footer>
         <div class="footer-container">
-            <img src="../assets/img/logo.png" alt="The Footer Image">
+            <img src="./assets/img/logo.png" alt="The Footer Image">
             <div class="row">
                 <div class="footer-logo">
                     <div class="about-us">
@@ -177,8 +176,8 @@
                     </ul>
                 </div>
                 <div class="newsletter">
+                    <h3>Subscribe to our newsletter</h3>
                     <form class="form-inline">
-                        <h3>Subscribe to our newsletter</h3>
                         <input type="text" class="form-control" placeholder="Email address"> <br>
                         <button type="submit" class="btn btn-warning">Submit</button>
                     </form>
@@ -186,21 +185,24 @@
                 <div class="follow-us">
                     <h3>Follow Us</h3>
                     <span>
-                        <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-medium"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-medium"></i>
                 </span>
                     <p>Copyright &copy; 2020 Naija Yellow Catalogue.</p>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="/assets/js/userspage.js"></script>
 
-</body>
 
-</html>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
