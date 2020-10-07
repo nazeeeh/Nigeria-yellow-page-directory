@@ -1,4 +1,4 @@
 function logout() {
-    location = "/index.html"
-    n
+    location.assign("../index.html")
+
 }

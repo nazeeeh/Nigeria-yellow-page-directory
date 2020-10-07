@@ -1,4 +1,128 @@
 <<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --google-color: #E85300;
+    --slack-color: #5D0174;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: auto;
+    overflow-x: hidden;
+}
+
+
+/* 
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner {
+    padding: 0;
+    border: 0 none;
+} */
+
+
+/* Navbar Styling */
+nav {
+    background: #111111;
+    position: sticky;
+    background: rgba(0, 0, 0, 0.96);
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  nav .navbar-brand img {
+    max-width: 230px;
+    max-height: 230px;
+    top: 15px;
+    margin-right: 300px;
+  }
+  
+  nav .nav-item-1 ul {
+    display: flex;
+    justify-content: space-between;
+    top: 25px;
+  }
+  
+  nav .nav-item-1 li {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  nav .nav-item-1 li a {
+    position: relative;
+    top: 10px;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 15px;
+    margin: 15px auto;
+    text-decoration: none;
+  } 
+  
+  nav .nav-item-1 li a:hover {
+    color: #EBBA32;
+  }
+  
+  nav .nav-item-1 .active{
+    color: #EBBA32;
+  }
+  
+  nav .nav-item-2 ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  nav .nav-item-2 li {
+    list-style-type: none;
+  }
+  
+  nav .nav-item-2 a {
+    position: relative;
+    top: 10px;
+    padding: 8px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav .nav-item-2 a:hover {
+    color: #EBBA32;
+  }
+  
+  nav .nav-item-2 .add-btn {
+    position: relative;
+    top: 10px;
+    background: #EBBA32;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  nav .nav-item-2 .add-btn:hover {
+    color: #ffffff;
+  } 
+  
+
+
+/* Sign Up Form Styling */
+
+.signup-section{
+    margin: 3rem 0;
+}
+
+h1 {
+=======
+<<<<<<< HEAD
         @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 html,
 body,
@@ -343,6 +467,7 @@ nav .nav-item-2 .add-btn:hover {
 }
 
 h3 {
+>>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
@@ -350,6 +475,64 @@ h3 {
     color: #313236;
 }
 
+<<<<<<< HEAD
+.first-container,
+.last-container {
+    margin-left: 12em;
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-style: double;
+}
+
+.google {
+    background: var(--google-color) !important;
+    color: #FFFFFF;
+}
+
+.slack {
+    margin-left: 1em;
+    border-radius: 15px;
+    background: var(--slack-color);
+}
+
+.sign-up-container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container {
+    padding-top: 3em;
+    /*    margin-right: 1em;*/
+}
+
+.last-container{
+    padding: 2rem 0;
+}
+
+#register-btn{
+    margin: 1rem 0;
+}
+
+input {
+    width: 34%;
+    padding-top: 7px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 1em;
+    /*  margin-right: : 2em;*/
+=======
 .google-btn {
     width: 220px;
     height: 58px;
@@ -387,6 +570,7 @@ input {
 
 input:focus {
     border: #EBBA32 5px solid;
+>>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 input[placeholder] {
@@ -398,6 +582,175 @@ input[placeholder] {
     padding-left: 10px;
 }
 
+<<<<<<< HEAD
+input:focus {
+    border: #EBBA32 4px solid;
+}
+textarea:focus {
+    border: #EBBA32 4px solid;
+}
+
+
+
+.check {
+    width: 10px;
+    height: 10px;
+}
+
+.create-account-btn {
+    width: 180px;
+    height: 45px;
+    background: #EBBA32;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* FOOTER STYLING */
+footer {
+    background: #111111;
+    color: #ffffff;
+  }
+  
+  .footer-container {
+    margin: auto;
+    max-width: 90%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-container img {
+    max-width: 280px;
+    max-height: 280px;
+    margin: 20px;
+  }
+  
+  .footer-container h3 {
+    color: #EBBA32;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .footer-container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+  }
+  
+  .row .quick li {
+    list-style-type: none;
+  }
+  
+  .row .quick a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 1.8;
+  }
+  
+  .row .quick a:hover {
+    color: #EBBA32;
+  }
+  
+  .newsletter {
+    text-align: center;
+    max-width: 95%;
+  }
+  
+  .newsletter input {
+    max-width: 70%;
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+  }
+  .form-inline{
+    display: flex;
+  }
+  
+  .newsletter button {
+    background: #EBBA32;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+  
+  }
+  
+  .follow-us span {
+    padding: 13px;
+    border-bottom: 1px dotted #333;
+  }
+  
+  .follow-us span i {
+    padding: 10px;
+    font-size: 24px;
+    
+  }
+  
+  .follow-us span i:hover {
+    color: #EBBA32;
+  }
+  
+  .follow-us  p {
+    padding: 15px;
+  }
+  
+
+
+/* media screen for tablets */
+
+
+/* Desktop Size*/
+
+@media screen and (max-width:800px) {
+    .first-container,
+    .last-container {
+        text-align: center;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width:473px) {
+    .slack {
+        margin-top: 1em;
+    }
+    input {
+        text-align: center;
+        width: 90%;
+        padding-top: 7px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-top: 1em;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+}
+
+
+/* FOOTER */
+
+
+/* Tablet Size */
+
+
+/* FOOTER STYLING */
+
+
+/* RESPONSIVENESS */
+
+
+/* Tablet */
+
+
+/* MINI TABLET */
+
+
+/* BIGGER MOBILE */
+
+
+/* MOBILE */
+=======
 .create-account-btn {
     width: 226px;
     height: 58px;
@@ -1072,3 +1425,4 @@ footer {
 }
 } 
 >>>>>>> 22abe2acff5ff21639da1cb50355204068688fda
+>>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7

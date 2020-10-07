@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+
+
+/* body styling */
+    .forgot-section{
+        background-color: white;
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow: hidden;
+        justify-content: space-between;
+        margin: 2rem 0;
+    }
+    .forgot-section .forgot-case{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-around;
+    }
+    .forgot-case img{ 
+        width: 500px;
+        height:500px;
+    }
+    .forgot-case .image_case{
+        flex: 1;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .forgot-case .form_case{
+        flex: 1.2;
+        margin-right: 20px;
+        margin-top: 60px;
+    }
+    .forgot-case .first-text{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        text-indent: 20px;
+        margin: 10px 30px 10px 10px;
+        font-style: normal;
+        font-size: 39px;
+        line-height: 49.91px;
+        color: #313236;
+    }
+    .forgot-case .second-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        text-indent: 20px;
+        margin: 10px;
+        margin-left: 10px;
+        line-height: 22.52px;
+        font-weight: normal;
+        color: #313236;
+    }
+    .input-icon i{
+        position: absolute;
+        margin-top: 19px;
+        margin-left: 360px;
+        float: right;
+        padding: 15px;
+        color: gray;
+      }
+    .forgot-case input[type = email]{
+        width: 400px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+        height: 60px;
+        color: #313236;
+        font-size: 14px;
+        border: 2px solid gray;
+
+    }
+    
+    
+    
+    .forgot-case input[type = email]:focus{
+        border: 3px solid #FFE6A1;
+        outline: none;
+    }
+    
+    .forgot-case .send-link{
+        background-color: #3A4151;
+        width: 400px;
+        height: 60px;
+        border-radius: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 26px;
+        margin: 10px;
+        color: #FFE6A1;
+        font-weight: bold;
+    }
+    button:hover{
+        box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+       
+       
+    }
+    .forgot-case .send-link:hover{
+        color: #ebbf46;
+    }
+
+    @media(max-width:280px) {
+        .forgot-case img{ 
+           display: none;
+        }
+        .forgot-case .image_case{
+           display: none;
+        }
+        
+        .forgot-case .form_case{
+            
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .forgot-case .first-text{
+            text-indent: 5px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 30px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 14px;
+            text-indent: 5px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 190px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 230px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 230px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+       
+    } 
+
+    @media(max-width:320px) {
+        .forgot-case img{ 
+           display: none;
+        }
+        .forgot-case .image_case{
+           display: none;
+        }
+        .forgot-case .form_case{
+            margin-left: 5px;
+            margin-top: 25px;
+           margin-right: 20px;
+        }
+        .forgot-case .first-text{
+            text-indent: 5px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 30px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 11.5px;
+            text-indent: 2px;
+            margin: 3px;
+            margin-left: 5px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 210px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 250px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 250px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    }
+     @media(max-width:360px) {
+        .forgot-case img{ 
+           display: none;
+        }
+        .forgot-case .image_case{
+           display: none;
+        }
+        .forgot-case .form_case{
+           
+            overflow: hidden;
+            margin-top: 30px;
+            margin-left: 10px;
+           margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 10px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 32px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 14px;
+            text-indent: 8px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 280px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 320px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 320px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    } 
+     @media(max-width:414px) {
+        .forgot-case img{ 
+           width: 200px;
+           height: 200px;
+           margin: 20px;
+          margin-left: 50px;
+        }
+         .forgot-section .forgot-case{
+            display: flex;
+            flex-direction: column ;
+            justify-content: space-around;
+        } 
+        .forgot-case .image_case{
+            flex:0.1;
+           
+        }
+        .forgot-case .form_case{
+             flex: 1; 
+            overflow: hidden;
+            margin-top: 10px;
+            margin-left: 10px;
+           margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 15px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 31px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 15px;
+            text-indent: 12px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 351px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 381px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 381px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    }
+     @media(max-width:375px) {
+        .forgot-case img{ 
+           width: 200px;
+           height: 200px;
+           margin: 20px;
+          margin-left: 40px;
+        }
+         .forgot-section .forgot-case{
+            
+            display: flex;
+            flex-direction: column ;
+            margin-left: 8px;
+            justify-content: space-around;
+        } 
+        .forgot-case .image_case{
+            flex:0.1;
+           
+        }
+        .forgot-case .form_case{
+             flex: 1; 
+            overflow: hidden;
+            margin-top: 10px;
+            margin-left: 10px;
+           margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 15px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 31px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 13.5px;
+            text-indent: 12px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 295px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 335px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 335px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    }
+     @media(max-width:540px) {
+        .forgot-case img{ 
+           width: 250px;
+           height: 250px;
+           margin: 20px;
+           margin-left: 40px;
+          
+        }
+         .forgot-section .forgot-case{
+            
+            display: flex;
+            flex-direction: column ;
+            margin-left: 8px;
+            justify-content: space-around;
+        } 
+        .forgot-case .image_case{
+            flex:0.1;
+           
+        }
+        .forgot-case .form_case{
+             flex: 1; 
+            overflow: hidden;
+            margin-top: 10px;
+            margin-left: 10px;
+           margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 15px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 31px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 13.5px;
+            text-indent: 12px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 440px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 480px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 480px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    } 
+    @media(max-width:768px) {
+        .forgot-case img{ 
+           width: 300px;
+           height: 240px;
+           margin: 20px;
+           margin-left: 60px;
+          
+        }
+         .forgot-section .forgot-case{
+            
+            display: flex;
+            flex-direction: column ;
+            margin-left: 8px;
+            justify-content: space-around;
+        } 
+        .forgot-case .image_case{
+            flex:0.1;
+           
+        }
+        .forgot-case .form_case{
+             flex: 1; 
+            overflow: hidden;
+            margin-top: 10px;
+            margin-left: 10px;
+           margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 15px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 31px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 13.5px;
+            text-indent: 12px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 668px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 708px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 708px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    }
+    
+    @media(max-width:890px) {
+        .forgot-case img{ 
+           width: 400px;
+           margin-top: 10px;
+           
+          
+        }
+         
+        .forgot-case .image_case{
+            flex:1;
+           
+        }
+        .forgot-case .form_case{
+            flex:1; 
+            overflow: hidden;
+            margin-top: 90px;
+            margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 15px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 32px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 14px;
+            text-indent: 12px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            font-weight: normal;
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 114px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 154px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 154px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    }
+   
+    @media(max-width:1024px) {
+        .forgot-case img{ 
+           width: 400px;
+           margin-top: 10px;
+           
+          
+        }
+         
+        .forgot-case .image_case{
+            flex:1;
+           
+        }
+        .forgot-case .form_case{
+            flex:1; 
+            overflow: hidden;
+            margin-top: 90px;
+            margin-right: 10px;
+        }
+        .forgot-case .first-text{
+            text-indent: 15px;
+            margin: 3px;
+            font-style: normal;
+            font-size: 32px;
+            line-height: 49.91px;
+            color: #313236;
+        }
+        .forgot-case .second-text{
+            
+            font-size: 14px;
+            text-indent: 12px;
+            margin: 3px;
+            margin-left: 10px;
+            line-height: 22.52px;
+            
+            color: #313236;
+        }
+        .input-icon i{
+            position: absolute;
+            margin-top: 19px;
+            margin-left: 314px;
+            float: right;
+            padding: 10px;
+            color: gray;
+          }
+        .forgot-case input[type = email]{
+            width: 354px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            height: 50px;
+            color: #313236;
+            font-size: 14px;
+            border: 2px solid gray;
+    
+        }
+        
+        .forgot-case input[type = email]:focus{
+            border: 3px solid #FFE6A1;
+            outline: none;
+        }
+        
+        .forgot-case .send-link {
+            background-color: #3A4151;
+            width: 354px;
+            height: 50px;
+            border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 18px;
+            margin: 10px;
+            color: #FFE6A1;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 3px 3px 2px rgba(58, 65, 81, 0.90);
+           
+           
+        }
+        .forgot-case .send-link:hover{
+            color: #ebbf46;
+        }
+        
+    }
