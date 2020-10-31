@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.bg-landing{
+    background-image: url(../img/five.jpg);
+    background-size: 100% 506px;
+    background-repeat: no-repeat;
+    content: "";
+    width: 100%;
+    height: 506px;
+    opacity: 0.97;
+    position: absolute;
+}
+.terms .bg-landing h1 {
+    font-size: 39px;
+    font-weight: bolder;
+    color: #fff;
+    padding-left: 41.2%;
+    padding-top: 172px;
+    line-height: 45.96px;
+   
+   
+}
+.updatesCont{
+    background-color: #242529;
+    width: 260px;
+    height: 28px;
+    border-radius: 40px;
+    margin-left: 590px;
+}
+.updates {
+    font-size: 13px;
+    color: #FFC834;
+    padding-left: 5px;
+    padding-top: 2px;
+    text-align: center;
+
+   
+}
+.divider{
+    width: 100%;
+    height: 10px;
+    margin-top: -1px;
+    top: 500px;
+    background-color: #FFC934;
+    color: #FFC934;
+    position: relative;
+   
+   
+}
+.conditions{
+    background-color: #F4F4F4;
+    padding-bottom: 50px;
+    margin-top: -15px;
+    width: 100%;
+    
+}
+.conditionsCont{
+    background-color: #F3F3F3;
+    margin-left: 105px;
+    padding: 50px;
+    width: 85%;
+    border-radius: 20px;
+    z-index: 9;
+    margin-top: 400px;
+    opacity: 0.99;
+    box-shadow: -15px 0px 50px rgba(0, 0, 0, 0.05), 15px 15px 50px rgba(0, 0, 0, 0.05);
+}
+@media(max-width:768px){
+    .terms .bg-landing h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: #fff;
+        padding-left: 30.2%;
+        padding-top: 152px;
+        line-height: 45.96px;
+       
+       
+    }
+    .updatesCont{
+        background-color: #242529;
+        width: 260px;
+        height: 28px;
+        border-radius: 40px;
+        margin-left: 120px;
+    }
+    .updates {
+        font-size: 13px;
+        color: #FFC834;
+        padding-left: 5px;
+        padding-top: 2px;
+        text-align: center;
+    
+       
+    }
+    .conditions{
+        background-color: #F4F4F4;
+        padding-bottom: 50px;
+        margin-top: -15px;
+        width: 100%;
+        
+    }
+    .conditionsCont{
+        background-color: #F3F3F3;
+        margin-left: 50px;
+        padding: 50px;
+        width: 80%;
+        border-radius: 20px;
+        z-index: 9;
+        margin-top: 400px;
+        opacity: 0.99;
+        box-shadow: -15px 0px 50px rgba(0, 0, 0, 0.05), 15px 15px 50px rgba(0, 0, 0, 0.05);
+    }
+}
+@media(max-width:378px){
+    .terms .bg-landing h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: #fff;
+        padding-left: 30.2%;
+        padding-top: 152px;
+        line-height: 45.96px;
+       
+       
+    }
+    .updatesCont{
+        background-color: #242529;
+        width: 260px;
+        height: 28px;
+        border-radius: 40px;
+        margin-left: 90px;
+    }
+    .updates {
+        font-size: 13px;
+        color: #FFC834;
+        padding-left: 5px;
+        padding-top: 2px;
+        text-align: center;
+    
+       
+    }
+    .conditions{
+        background-color: #F4F4F4;
+        padding-bottom: 50px;
+        margin-top: -15px;
+        width: 100%;
+        
+    }
+    .conditionsCont{
+        background-color: #F3F3F3;
+        margin-left: 50px;
+        padding: 50px;
+        width: 75%;
+        border-radius: 20px;
+        z-index: 9;
+        margin-top: 400px;
+        opacity: 0.99;
+        box-shadow: -15px 0px 50px rgba(0, 0, 0, 0.05), 15px 15px 50px rgba(0, 0, 0, 0.05);
+    }
+}
+@media(max-width:1024px){
+    .terms .bg-landing h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        color: #fff;
+        padding-left: 30.2%;
+        padding-top: 152px;
+        line-height: 45.96px;
+       
+       
+    }
+    .updatesCont{
+        background-color: #242529;
+        width: 260px;
+        height: 28px;
+        border-radius: 40px;
+        margin-left: 120px;
+    }
+    .updates {
+        font-size: 13px;
+        color: #FFC834;
+        padding-left: 5px;
+        padding-top: 2px;
+        text-align: center;
+    
+       
+    }
+    .conditions{
+        background-color: #F4F4F4;
+        padding-bottom: 50px;
+        margin-top: -15px;
+        width: 100%;
+        
+    }
+    .conditionsCont{
+        background-color: #F3F3F3;
+        margin-left: 50px;
+        padding: 50px;
+        width: 80%;
+        border-radius: 20px;
+        z-index: 9;
+        margin-top: 400px;
+        opacity: 0.99;
+        box-shadow: -15px 0px 50px rgba(0, 0, 0, 0.05), 15px 15px 50px rgba(0, 0, 0, 0.05);
+    }
+}

@@ -1,0 +1,101 @@
+.title {
+    display: grid;
+    justify-content: center;
+    margin: 8rem 0;
+}
+
+.title h3 {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.title p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.pricing-card {
+    flex: 1;
+    /* max-width: 360px; */
+    background-color: #EBBA32;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2e2e2e;
+    transition: .3s linear;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.pricing-card-header {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    display: inline-block;
+    color: #EBBA32;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header {
+    box-shadow: 0 0 0 26em black;
+}
+
+.price {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 20px 0;
+    transition: .2s linear;
+}
+
+.price sup,
+.price span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing-card:hover,
+.pricing-card:hover .price {
+    color: #EBBA32;
+}
+
+.pricing-card li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.order-btn {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.order-btn:hover {
+    background-color: black;
+    color: #ffe4c4;
+}

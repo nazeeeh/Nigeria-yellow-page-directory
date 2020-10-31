@@ -91,8 +91,6 @@ nav .nav-item-2 .add-btn:hover {
 }
 
 
-<<<<<<< HEAD
-=======
 /* Navbar Styling */
 
 nav {
@@ -177,7 +175,6 @@ nav .nav-item-2 .add-btn:hover {
 }
 
 
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
 /*content  */
 
 .general-container {
@@ -187,81 +184,6 @@ nav .nav-item-2 .add-btn:hover {
 }
 
 .main-container {
-<<<<<<< HEAD
-    position: relative;
-    /* left: 10000px; */
-    right: -20px;
-    width: 366px;
-    height: 1150px;
-    top: 0px;
-    /* background: #FEF9EA; */
-    /* box-shadow: 11px 9px 37px rgba(0, 0, 0, 0.25); */
-    /* border-radius: 0px 45px 0px 0px; */
-    margin-left: 0;
-    margin-top: 20px;
-}
-
-.input input {
-    height: 148px;
-    width: 154px;
-    left: 18px;
-    top: 80px;
-    border-radius: 50%;
-}
-
-.sub-container {
-    height: 400px;
-    background: linear-gradient( rgba(0, 0, 0, 0.8) 5%, white 90%);
-    /* background-color: red;*/
-}
-
-.sub-container h3 {
-    height: 21px;
-    width: 300px;
-    position: relative;
-    /* left: 50px; */
-    top: 18px;
-    text-align: center;
-    letter-spacing: 0em;
-    padding-bottom: 25px;
-    font-family: "Ubuntu";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: bolder;
-    line-height: 30px;
-    letter-spacing: 0em;
-    left: 0px;
-}
-
-.sub-container p {
-    display: inline-block;
-    position: relative;
-    background-color: #EBBA32;
-    left: 0;
-    top: 18px;
-    text-align: center;
-    letter-spacing: 0em;
-    padding: 10px;
-    color: #000000;
-    font-family: "Ubuntu";
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 6px;
-    margin-bottom: 30px;
-}
-
-.sub-container input {
-    position: relative;
-    border-radius: 50%;
-    width: 154px;
-    height: 148px;
-    left: 70px;
-    top: 20px;
-}
-
-.input a {
-=======
     margin: 20px;
 }
 
@@ -291,7 +213,7 @@ nav .nav-item-2 .add-btn:hover {
 .sub-container button a {
     z-index: 1000;
     color: #212529 !important;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .sub-container h3 {
@@ -304,7 +226,7 @@ nav .nav-item-2 .add-btn:hover {
     letter-spacing: 0em;
     font-family: " Ubuntu";
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 0em;
     left: 0px;
     margin-bottom: 25px;
@@ -321,7 +243,7 @@ nav .nav-item-2 .add-btn:hover {
     text-align: center;
     letter-spacing: 0em;
     color: #000000;
-    font-family: " Work Sans ,Ubuntu";
+    font-family: "  Ubuntu,Work Sans";
     font-size: 14px;
     text-align: center;
     border-radius: 6px;
@@ -330,21 +252,29 @@ nav .nav-item-2 .add-btn:hover {
 .list-group a {
     text-decoration: none;
     font-size: 16px;
+    font-weight: bolder;
     line-height: 16px;
     text-align: left;
     text-transform: capitalize;
-    color: #919191;
+    color: #3A4151;
     background: transparent;
-    font-weight: 400;
 }
 
 .list-group-item i {
-    color: #919191;
+    color: #3A4151;
     margin-right: 20px;
     align-items: left;
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 16px;
-    line-height: 16px
+    line-height: 16px;
+}
+
+.list-group button {
+    height: 70px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    /* width: 430px; */
 }
 
 .list-group button:nth-child(odd) {
@@ -364,10 +294,16 @@ nav .nav-item-2 .add-btn:hover {
     color: #EBBA32
 }*/
 
-.list-group button:hover {
+.list-group button:hover,
+.list-group button:active {
     color: #EBBA32;
     transition: all 0.1s ease-in-out;
-    border-left: 8px solid#EBBA32;
+    border: 5px solid#EBBA32;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-bottom: 1px solid #ddd;
+    outline: hidden;
 }
 
 .list-group a:hover {
@@ -384,17 +320,16 @@ nav .nav-item-2 .add-btn:hover {
     border-right-style: hidden;
 }
 
+.list-group button:hover {
+    color: red;
+}
+
 div a {
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
     color: #3A4151;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-.input a:hover {
-=======
 div a:hover {
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
     text-decoration: none;
     transition: 2ms all ease-in-out;
     cursor: pointer;
@@ -417,8 +352,6 @@ div a:hover {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-=======
 .registration-form div h2 {
     font-weight: bold;
     font-size: 18px;
@@ -452,6 +385,19 @@ span .fas {
     font-size: 16px;
 }
 
+.form1 label {
+    color: #8F8F8F;
+    font-family: "Ubuntu";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+form input:focus {}
+
 .fine {
     position: relative;
 }
@@ -463,6 +409,14 @@ span .fas {
     top: 80px;
 }
 
+.fine h3 {
+    position: relative;
+    left: 165px !important;
+    font-size: 20px;
+    top: 180px;
+    font-weight: bold;
+}
+
 .fine .fas {
     left: 100px;
     position: relative;
@@ -470,7 +424,33 @@ span .fas {
     margin-bottom: 20px;
 }
 
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
+#fine {
+    border: 3px dashed #C4C4C4;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.fine #fas {
+    left: 250px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+#accepted,
+.secured {
+    color: #C4C4C4;
+    margin-top: 0;
+    height: 18px;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .sub-registration-form {
     width: 950px;
     height: 900px;
@@ -489,36 +469,38 @@ span .fas {
     margin: 0 50px 20px 0;
 }
 
-<<<<<<< HEAD
-=======
-.input {
-    width: 100p;
-}
 
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
+/* .input {
+    width: 100p;
+} */
+
 input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+.form-control:focus {
     border: #EBBA32 5px solid;
     /* background-color: #fffcff; */
     color: rgba(0, 0, 0);
 }
 
-textarea {
+.form-control:focus {
+    outline: none;
+}
+
+.textarea1 {
     margin-bottom: 20px;
     width: 650px !important;
-    padding-top: 15px
+    padding-top: 15px;
 }
 
 input[placeholder],
 .select,
-textarea {
-    font-style: normal;
+.textarea1 {
+    font-family: "ubuntu";
     font-weight: normal;
     font-size: 15px;
     line-height: 15px;
     padding-left: 10px;
-    color: rgb(0, 0, 0)
 }
 
 .form-input {
@@ -526,7 +508,7 @@ textarea {
     display: inline;
 }
 
-form {
+.form1 {
     display: flex;
     width: 700px;
     justify-content: left;
@@ -534,12 +516,22 @@ form {
     flex-wrap: wrap;
 }
 
-form input {
+
+/* form input,
+form select,
+textarea {
     width: 200px;
-}
+    outline: auto;
+    outline-color: gray;
+    border-radius: 5px;
+} */
 
 .input-grey {
     background: #FEF9EA;
+}
+
+iframe {
+    border-radius: 4px;
 }
 
 hr {
@@ -555,14 +547,9 @@ hr {
 .sub-registration-form form h2,
 .sub-registration-form .location h2 {
     width: 100%;
-<<<<<<< HEAD
-    font-size: 2rem;
-    font-weight: bold;
-=======
     font-size: 18px;
     line-height: 20px;
     /* font-weight: bold; */
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
     text-align: left;
     text-transform: capitalize;
     color: #000000;
@@ -570,6 +557,8 @@ hr {
 
 .buttons {
     margin-top: 2rem;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .input {
@@ -580,6 +569,116 @@ hr {
     width: 20px;
     height: 20px;
     margin: 10px
+}
+
+.list-group-item:focus {
+    outline: none
+}
+
+.svg {
+    width: 20px;
+    line-height: 16px;
+    font-size: 16px;
+    height: 20px;
+    font-weight: 900;
+    color: #3A4151;
+    margin-right: 20px;
+}
+
+
+/* stat css */
+
+.stat-container {
+    background: #F7F7F7;
+    box-shadow: -6px 4px 31px -8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    width: 1000px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.number {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 13px;
+}
+
+.top-container p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.visitor {
+    color: #F8C800;
+}
+
+.right-top {
+    background-image: url(../img/yellowchart.png);
+    border-radius: 10px;
+    transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -moz-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -ms-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -o-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    margin-left: 2rem;
+    padding-left: 2rem;
+    width: 600px;
+    height: 400px;
+}
+
+.left-top,
+.left-bottom {
+    padding-left: 3rem;
+}
+
+.left-top {
+    margin-bottom: 4rem;
+}
+
+.right-bottom {
+    background-image: url(../img/eventchart.png);
+    border-radius: 10px;
+    transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -moz-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -ms-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    -o-transform: matrix(1, -0.01, -0.01, 1, 0, 0);
+    margin-left: 2rem;
+    padding-left: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    width: 600px;
+    height: 400px;
 }
 
 
@@ -676,11 +775,7 @@ footer {
 /* Responsiveness*/
 
 
-<<<<<<< HEAD
-/* Larger Desktop Size*/
-=======
 /* Larger Desktop Size
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464
 
 @media (max-width:1440px) {
     .nav-flex {
@@ -877,10 +972,4 @@ footer {
         color: #000000;
         margin: auto;
     }
-<<<<<<< HEAD
 }
-=======
-}
-
-*/
->>>>>>> 1bafc67bf3316b5270313a326dfa2ddec30e3464

@@ -3,7 +3,6 @@
 /* font-family: 'Beth Ellen', cursive;
 font-family: 'Ubuntu', sans-serif; */
 
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -11,21 +10,6 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 html, body{ height:100%; margin:0; }
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height:100vh;
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-  line-height: auto;
-  overflow-x: hidden;
-}
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 
 button::-moz-focus-inner, 
 input[type="button"]::-moz-focus-inner, 
@@ -35,7 +19,6 @@ input[type="reset"]::-moz-focus-inner {
   border: 0 none;
 }
 
-<<<<<<< HEAD
 body{
     font-family: 'Ubuntu', sans-serif;
     line-height: auto;
@@ -231,88 +214,6 @@ body{
     background: #bb8a03;
     color: #ffffff;
   } */
-=======
-/* Navbar Styling */
-nav {
-  background: #111111;
-  position: sticky;
-  background: rgba(0, 0, 0, 0.96);
-  font-family: 'Ubuntu', sans-serif;
-  width: 100%;
-}
-
-nav .navbar-brand img {
-  max-width: 280px;
-  max-height: 280px;
-  top: 15px;
-  margin-right: 300px;
-}
-
-nav .nav-item-1 ul {
-  display: flex;
-  justify-content: space-between;
-  top: 25px;
-}
-
-nav .nav-item-1 li {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-nav .nav-item-1 li a {
-  position: relative;
-  top: 10px;
-  color: #ffffff;
-  padding: 35px;
-  font-size: 18px;
-  margin: 15px auto;
-  text-decoration: none;
-} 
-
-nav .nav-item-1 li a:hover {
-  color: #EBBA32;
-}
-
-nav .nav-item-1 .active{
-  color: #EBBA32;
-}
-
-nav .nav-item-2 ul{
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-
-nav .nav-item-2 li {
-  list-style-type: none;
-}
-
-nav .nav-item-2 a {
-  position: relative;
-  top: 10px;
-  padding: 35px;
-  font-size: 18px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-nav .nav-item-2 a:hover {
-  color: #EBBA32;
-}
-
-nav .nav-item-2 .add-btn {
-  position: relative;
-  top: 10px;
-  background: #EBBA32;
-  padding: 15px 30px;
-  border-radius: 5px;
-  color: #ffffff;
-}
-
-nav .nav-item-2 .add-btn:hover {
-  color: #ffffff;
-} 
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 
 
 
@@ -352,7 +253,6 @@ button:active{
     transform:scale(1.1);
 }
 
-<<<<<<< HEAD
 
 .box-headers{
   display:flex;
@@ -367,17 +267,6 @@ button:active{
     font-size: 15px;
     
 }
-=======
-.box-headers{
-    display:flex;
-    flex-direction: row;
-    margin: 0 1rem;
-    align-items: flex-end;
-    padding: 0 10px;
-    right: 300px;
-}
-
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 .first{
     background-color: rgba(190,157,14, 0.5);
     padding: 15px;
@@ -385,13 +274,6 @@ button:active{
     color: #ffffff;
 }
 
-<<<<<<< HEAD
-=======
-.first .second h5{
-    font-size: 15px;
-    
-}
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 
 .second{
     background-color: #bb8a03;
@@ -491,7 +373,6 @@ option{
     color: black;
 }
 
-<<<<<<< HEAD
 /* Footer Styling*/
 
 footer {
@@ -557,88 +438,6 @@ footer {
     font-size: 13px;
     color: #EBBA32;
   }
-=======
-
-/* FOOTER */
-footer {
-  background: #111111;
-  color: #ffffff;
-}
-
-.footer-container {
-  margin: auto;
-  max-width: 90%;
-  padding: 10px;
-  text-align: center;
-}
-
-.footer-container img {
-  max-width: 400px;
-  max-height: 400px;
-  margin: 20px;
-}
-
-.footer-container h3 {
-  color: #EBBA32;
-  text-align: center;
-}
-
-.footer-container .row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 50px;
-}
-
-.row .quick li {
-  list-style-type: none;
-}
-
-.row .quick a {
-  text-decoration: none;
-  color: #ffffff;
-  line-height: 1.8;
-}
-
-.row .quick a:hover {
-  color: #EBBA32;
-}
-
-.newsletter {
-  margin: auto;
-  text-align: center;
-  max-width: 70%;
-}
-
-.newsletter input {
-  max-width: 100%;
-  margin: 5px 5px;
-  padding: 5px;
-}
-
-.newsletter button {
-  background: #EBBA32;
-  color: #000000;
-  margin: auto;
-}
-
-.follow-us span {
-  padding: 13px;
-  border-bottom: 1px dotted #333;
-}
-
-.follow-us span i {
-  padding: 10px;
-  font-size: 24px;
-}
-
-.follow-us span i:hover {
-  color: #EBBA32;
-}
-
-.follow-us  p {
-  padding: 15px;
-}
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 
   /* RESPONSIVENESS*/
   @media (max-width:1024px) {
@@ -747,9 +546,4 @@ footer {
             margin: 150px 0 0 0;
           }
 
-<<<<<<< HEAD
     }
-=======
-    }
-  }
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7

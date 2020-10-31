@@ -1,0 +1,53 @@
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    background-color: #EBBA32 !important;
+    border-color: #f0cf74 !important;
+}
+
+#main-btn{
+    margin: 4rem 0;
+    position: relative;
+    justify-content: center;
+}
+
+.custom-file-input{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(1.5em + .75em + 2px);
+    margin: 0;
+    opacity: 0;
+    }
+
+    button, input, optgroup, select, textarea {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    input{
+        font: 400 13.3333px Arial;
+    }
+
+    #forza{
+        margin: 3rem 0;
+        position: relative;
+        justify-content: center;
+        width: 300%;
+        border: 2px solid #EBBA32;
+        max-width: 700px;
+        max-height: 300px;
+    }
+    
+ 
+    
+#marko{
+        max-height: 300px;
+    }
+    
+    .card-img{
+        
+        max-height: 290px;
+        max-width: 270px;
+        object-fit: cover;
+    }

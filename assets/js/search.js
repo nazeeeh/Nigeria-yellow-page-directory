@@ -1,88 +1,118 @@
 // Declaring Events
 allEvents = [
   {
+    "pics": '../assets/img/music.jpg',
     "eventName": 'Accoustic Night',
     "location": 'Abuja'
   },
   {
+    "pics": '../assets/img/tiwa.jpg',
     "eventName": 'Tiwa & Friends Independence Day Blast',
     "location": 'Abuja'
   },
   {
+    "pics": '../assets/img/marlian.jpg',
     "eventName": 'Marlian Fest',
     "location": 'Abuja'
   },
   {
-    "eventName": "Bourna's Abuja Tour",
+    "pics": '../assets/img/burna.jpg',
+    "eventName": "Burna's Abuja Tour",
+    "location": 'Abuja'
+  },
+  {
+    "pics": '../assets/img/tiwa.jpg',
+    "eventName": "Big Brother Naija",
+    "location": 'Abuja'
+  },
+  {
+    "pics": '../assets/img/tiwa.jpg',
+    "eventName": "TIIDELab Cohort 2",
+    "location": 'Abuja'
+  },
+  {
+    "pics": '../assets/img/marlian.jpg',
+    "eventName": "Techspecialist Software Training",
+    "location": 'Abuja'
+  },
+  {
+    "pics": '../assets/img/marlian.jpg',
+    "eventName": "Tech Talks with Mr Kenny",
     "location": 'Abuja'
   }
+
 ];
 
-// ourEvents = [
-//   {
-//     eventName: 
-//   }
-// ];
-
-// const display = () => {
-//   window.location.assign('../contents/eventsearch.html');
-// }
-
-// const eventsPage = () => {
-//   for (let i = 0; i < allEvents.length; i++) {
-//     if (document.getElementById('events').value == allEvents[i].eventName) {
-//       window.location.assign('../contents/eventsearch.html');
-//     }
-//   }
-
-//   return false;
-// }
-
-// let array = [];
-
 function search() {
-  show = document.getElementById('events').value;
-  state = document.getElementById('state').value;
-  usersObject = allEvents.filter(x => x.eventName.includes(show));
-  if (usersObject == undefined || usersObject == null) {
-    alert(`No record found for ${show}`);
+
+  show = document.getElementById('events').value; // Name of Event
+  state = document.getElementById('state').value; // Name of State
+
+  usersObject = allEvents.filter(x => x.eventName.includes(show)); // Filter name and get the name
+
+  if (usersObject == false) {
+    // If the keyword is not in the local storage 
+    swal("This event is not currently available", "Check other events happening!", "warning");
+
   } else {
-    stateObject = usersObject.filter(x => x.location.includes(state));
-    //console.log(usersObject, stateObject);
-    if (stateObject == undefined || stateObject == null) {
-      alert(`No record found for ${show} at ${state}`);
-    } else {
-      //console.log('Malik Mukhtar'); 
-      // allEvents.push(usersObject);
-      // allEvents.push(stateObject);
 
+    stateObject = usersObject.filter(x => x.location.includes(state)); // Filter state and get the state
+
+    if (stateObject == false) {
+
+      // If the keyword is not in the local storage 
+      swal("This event is not currently available", "Check other events happening!", "warning");
+
+    } else{
+
+      if ( state == "" || show == ""){
+        swal("Error", "Fields cannot be empty", "warning");
+      }
+
+      else{
+
+      // If the keyword is available in the local storage
+      swal("Yes!", "Proceed to check about this event", "success");
+
+      // AJAX Loader that loads the new page
+      document.getElementById('findEvent').innerHTML = '<img src="../assets/img/ajax-loader.gif"> ';
+
+      setTimeout(() => {
+        document.getElementById('findEvent').innerHTML = '';
+      }, 3000);
+
+      // Setting the events to the local Storage
       localStorage.setItem('saveEvents', JSON.stringify(stateObject));
-      window.location.assign('../contents/eventsearch.html');
+
+      setTimeout(() => {
+        window.location.assign('../contents/eventsearch.html');
+      }, 3000);
     }
-
-
+  }
   }
 }
 
+// Getting the searched events in the local storage and displaying it
 function recoverSearch() {
   searchResults = JSON.parse(localStorage.getItem("saveEvents"));
-  if (searchResults == undefined || searchResults == null) {
+  if (searchResults == false) {
     alert(`Error`);
   } else {
-    //console.log('Malik Mukhtar');
     displaySearch(searchResults);
   }
-
-  // display();
 }
 
+// The HTML Template to display when an event is searched for
 function displaySearch(arr) {
   searchContent = "";
   for (j = 0; j < arr.length; j++) {
+    document.getElementById('valueOne').value = arr[j].eventName;
+    document.getElementById('valueTwo').value = arr[j].location;
+    document.getElementById('valueThree').value = new Date();
     searchContent +=
       `<div class="result-grid">
     <div class="result-img">
-      <img src="../assets/img/marlian.jpg" alt="First Event">
+      <img src="${arr[j].pics}" alt="${arr[j]}">
     </div>
     <div class="result-desc">
       <p><i class="fas fa-check"></i> verified</p>
@@ -99,11 +129,3 @@ function displaySearch(arr) {
 
 
 }
-//console.log('Samuel Yusuf');
-
-// function display() {
-//   if (document.getElementById('events').value == usersObject) {
-//     window.location.assign('../contents/eventsearch.html');
-//   }
-
-//   return false; 

@@ -8,15 +8,9 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
 /* .logo {
     width: 250px;
 } */
-=======
-.logo {
-    width: 250px;
-}
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 
 
 /* Navbar Styling */
@@ -26,20 +20,12 @@ nav {
   background: rgba(0, 0, 0, 0.96);
   font-family: 'Ubuntu', sans-serif;
   width: 100%;
-<<<<<<< HEAD
   padding: 40px 0;
 }
 
 nav .navbar-brand img {
   max-width: 230px;
   max-height: 230px;
-=======
-}
-
-nav .navbar-brand img {
-  max-width: 280px;
-  max-height: 280px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   top: 15px;
   margin-right: 300px;
 }
@@ -59,13 +45,8 @@ nav .nav-item-1 li a {
   position: relative;
   top: 10px;
   color: #ffffff;
-<<<<<<< HEAD
   padding: 20px;
   font-size: 15px;
-=======
-  padding: 35px;
-  font-size: 18px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   margin: 15px auto;
   text-decoration: none;
 } 
@@ -91,13 +72,8 @@ nav .nav-item-2 li {
 nav .nav-item-2 a {
   position: relative;
   top: 10px;
-<<<<<<< HEAD
   padding: 8px;
   font-size: 15px;
-=======
-  padding: 35px;
-  font-size: 18px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   color: #ffffff;
   text-decoration: none;
 }
@@ -110,11 +86,7 @@ nav .nav-item-2 .add-btn {
   position: relative;
   top: 10px;
   background: #EBBA32;
-<<<<<<< HEAD
   padding: 10px 20px;
-=======
-  padding: 15px 30px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   border-radius: 5px;
   color: #ffffff;
 }
@@ -143,6 +115,7 @@ nav .nav-item-2 .add-btn:hover {
 .login-image img {
     width: 500px;
     height: 550px;
+    margin-top: 4rem;
     margin-right: 130px;
     border-radius: 32px;
     filter: grayscale(0.9);
@@ -180,7 +153,7 @@ nav .nav-item-2 .add-btn:hover {
     border-radius: 10px;
     margin-bottom: 15px;
 }
-
+/* 
 .twitter-btn {
     background-color: white;
     border: 4px double #313236;
@@ -193,9 +166,9 @@ nav .nav-item-2 .add-btn:hover {
     border-left: 4px double white;
     color: white;
     margin-right: 20px;
-}
+} */
 
-.google-btn {
+/* .google-btn {
     background-color: #313236;
     border-top: 4px double white;
     border-left: 4px double white;
@@ -213,7 +186,7 @@ nav .nav-item-2 .add-btn:hover {
     font-size: 15px;
     color: #ACBDD0;
     text-align: center;
-}
+} */
 
 .login-form label {
     color: #5A656F;
@@ -227,10 +200,35 @@ nav .nav-item-2 .add-btn:hover {
     border-top: none;
     font-size: 20px;
     color: #313236;
-    width: 100%;
+    width: 150%;
     border-bottom: 1px #313236 solid;
     margin-bottom: 20px;
 }
+
+input[type=email]:focus {
+  border-bottom: #EBBA32 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+input[type=password]:focus {
+  border-bottom: #EBBA32 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+textarea:focus {
+  background: #a0d9ff;
+  border-bottom: #EBBA32 4px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
 
 .login-form a {
     margin-left: 200px;
@@ -258,11 +256,7 @@ nav .nav-item-2 .add-btn:hover {
 }
 
 
-<<<<<<< HEAD
 /* FOOTER STYLING */
-=======
-/* FOOTER */
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 footer {
   background: #111111;
   color: #ffffff;
@@ -276,22 +270,14 @@ footer {
 }
 
 .footer-container img {
-<<<<<<< HEAD
   max-width: 280px;
   max-height: 280px;
-=======
-  max-width: 400px;
-  max-height: 400px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   margin: 20px;
 }
 
 .footer-container h3 {
   color: #EBBA32;
-<<<<<<< HEAD
   font-size: 20px;
-=======
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
   text-align: center;
 }
 
@@ -316,7 +302,6 @@ footer {
 }
 
 .newsletter {
-<<<<<<< HEAD
   text-align: center;
   max-width: 95%;
 }
@@ -329,28 +314,13 @@ footer {
 }
 .form-inline{
   display: flex;
-=======
-  margin: auto;
-  text-align: center;
-  max-width: 70%;
-}
-
-.newsletter input {
-  max-width: 100%;
-  margin: 5px 5px;
-  padding: 5px;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 .newsletter button {
   background: #EBBA32;
   color: #000000;
-<<<<<<< HEAD
   border-radius: 0 5px 5px 0;
 
-=======
-  margin: auto;
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 .follow-us span {
@@ -361,10 +331,7 @@ footer {
 .follow-us span i {
   padding: 10px;
   font-size: 24px;
-<<<<<<< HEAD
   
-=======
->>>>>>> bb0fb19cef312e74e5cdcab428b5b39132505bc7
 }
 
 .follow-us span i:hover {
